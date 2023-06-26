@@ -12,3 +12,9 @@ Machine Learning Engineer Certification:
 ========================================
 
 https://www.cloudskillsboost.google/journeys/17
+
+
+Certifications:
+=================
+
+https://www.coursera.org/articles/machine-learning-certification

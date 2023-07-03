@@ -22,3 +22,9 @@ Full certificate provider List:
 
 
 https://www.coursera.org/articles/machine-learning-certification
+
+
+Machine Learning - Google 
+========================
+
+https://research.google/teams/brain/

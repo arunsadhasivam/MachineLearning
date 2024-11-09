@@ -17,6 +17,7 @@ Compiling C++ Extensions: Some Python libraries (especially those with C++ bindi
 may require a C++ compiler to build from source on Windows. 
 In these cases, the Visual Studio Build Tools or the full Visual Studio IDE is necessary.
 
+![image](https://github.com/user-attachments/assets/0584f594-1761-4632-b309-59c4a03a3b93)
 
 Visual Studio Build Tools:
 ==========================

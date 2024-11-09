@@ -77,6 +77,23 @@ ERROR Before VC++ Installation:
     Requirement already satisfied: requests<3,>=2 in c:\arun\python\python313\lib\site-packages (from langchain) (2.32.3)
     Requirement already satisfied: tenacity!=8.4.0,<10,>=8.1.0 in c:\arun\python\python313\lib\site-packages (from langchain) (8.5.0)
 
+
+
+Installed version:
+=================
+
+        PS C:\Workspace> pip show langchain
+    Name: langchain
+    Version: 0.3.7
+    Summary: Building applications with LLMs through composability
+    Home-page: https://github.com/langchain-ai/langchain
+    Author:
+    Author-email:
+    License: MIT
+    Location: C:\Arun\Python\Python313\Lib\site-packages
+    Requires: aiohttp, langchain-core, langchain-text-splitters, langsmith, numpy, pydantic, PyYAML, requests, SQLAlchemy, tenacity
+    Required-by:
+
 Reason why vc++ required:
 =========================
 

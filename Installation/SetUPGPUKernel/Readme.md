@@ -78,7 +78,8 @@ For TensorFlow:
 
 For PyTorch:
 ============
-        You can install PyTorch with GPU support by specifying the CUDA version. For example, if using CUDA 11.8:
+
+You can install PyTorch with GPU support by specifying the CUDA version. For example, if using CUDA 11.8:
 
         conda install pytorch torchvision torchaudio cudatoolkit=11.8 -c pytorch
 

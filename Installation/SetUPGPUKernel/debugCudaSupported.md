@@ -1,6 +1,20 @@
 To check cuda is working 
 ==========================
 
+Step1:
+======
+check nvidia driver whether enabled for developer to access cuda
+
+
+![image](https://github.com/user-attachments/assets/ac8012e9-24f0-4fc1-8711-89db8e280541)
+
+
+Step2:Check the nvidia gpu
+===========================
+
+
+![image](https://github.com/user-attachments/assets/fd57e99d-42d0-4bd3-ac40-513ffbf24072)
+
 
 import torch
 

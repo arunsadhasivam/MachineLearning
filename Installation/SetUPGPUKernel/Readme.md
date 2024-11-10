@@ -9,7 +9,7 @@ Ensure your GPU drivers are correctly installed and up-to-date. You can download
 
     Check if your GPU is recognized:
 
-    nvidia-smi
+        nvidia-smi
 
     This command should display information about your GPU, including the driver version.
 
@@ -56,7 +56,7 @@ Using Anaconda simplifies setting up a GPU-compatible environment for TensorFlow
 Create a new Conda environment:
 =================================
 
-    conda create --name gpu_env python=3.8
+     conda create --name gpu_env python=3.8
 
 Replace 3.8 with the Python version you want to use.
 
@@ -70,7 +70,7 @@ Install GPU-Compatible Libraries:
 
     For TensorFlow:
 
-conda install tensorflow-gpu
+        conda install tensorflow-gpu
 
 For PyTorch: You can install PyTorch with GPU support by specifying the CUDA version. For example, if using CUDA 11.8:
 
@@ -109,8 +109,8 @@ Install Jupyter in the Conda Environment:
 Install ipykernel:
 ==================
 
-  conda install ipykernel
-  python -m ipykernel install --user --name=gpu_env
+      conda install ipykernel
+      python -m ipykernel install --user --name=gpu_env
 
 
 Start Jupyter Notebook:

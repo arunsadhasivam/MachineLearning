@@ -1,3 +1,9 @@
-C:\Users\aruns>python -m venv CUDA-GPU
+Create kernal envionment for gpu:
+=================================
 
-C:\Users\aruns>source CUDA-GPU activate
+    C:\Users\aruns>python -m venv CUDA-GPU
+
+Activate
+========
+
+  C:\Users\aruns>source CUDA-GPU activate

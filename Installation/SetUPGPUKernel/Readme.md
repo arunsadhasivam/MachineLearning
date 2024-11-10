@@ -7,13 +7,14 @@ Install NVIDIA Drivers
 
 Ensure your GPU drivers are correctly installed and up-to-date. You can download the drivers from the NVIDIA website.
 
-    Check if your GPU is recognized:
+Check if your GPU is recognized:
+===============================
 
-        nvidia-smi
+     nvidia-smi
 
-    This command should display information about your GPU, including the driver version.
+This command should display information about your GPU, including the driver version.
 
-    Install the appropriate driver if needed, following NVIDIA's installation instructions.
+Install the appropriate driver if needed, following NVIDIA's installation instructions.
 
 Step 2: Install CUDA Toolkit and cuDNN
 =======================================

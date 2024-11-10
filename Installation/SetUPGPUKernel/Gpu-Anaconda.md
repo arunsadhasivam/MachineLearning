@@ -75,6 +75,19 @@ Step 3: Set Up an Anaconda Environment with GPU Support
 
 Using Anaconda simplifies setting up a GPU-compatible environment for TensorFlow or PyTorch.
 
+
+
+NOTE:
+=====
+
+tensorflow does not support latest python, 
+currently, TensorFlow does not support Python 3.13, as it's a relatively new release, and many libraries, including TensorFlow, 
+may not yet be compatible. Here’s what you can do to install TensorFlow:
+
+Solution: Use Python 3.8 - 3.10
+================================
+
+
 Create a new Conda environment:
 =================================
 

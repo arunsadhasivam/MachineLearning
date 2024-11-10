@@ -16,6 +16,13 @@ This command should display information about your GPU, including the driver ver
 
 Install the appropriate driver if needed, following NVIDIA's installation instructions.
 
+NOTE:
+=====
+
+**It may say some functionality wont work since visual studio is not installed. so install visual studio 
+make sure that warning is not there while installing cuda**
+
+
 Step 2: Install CUDA Toolkit and cuDNN
 =======================================
 

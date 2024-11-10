@@ -24,13 +24,15 @@ CUDA and cuDNN are required to enable GPU support for deep learning libraries.
     Install CUDA:
     --------------
         Download and install the CUDA Toolkit from the NVIDIA CUDA website.
-        Select the version compatible with the deep learning framework you intend to use (TensorFlow, PyTorch, etc.). Each framework may require specific CUDA versions, so refer to its documentation.
+        Select the version compatible with the deep learning framework you intend to use (TensorFlow, PyTorch, etc.). 
+        Each framework may require specific CUDA versions, so refer to its documentation.
 
     Install cuDNN:
     --------------
     
         Download cuDNN from the NVIDIA cuDNN website.
-        Unzip and copy the files to the CUDA directory (typically /usr/local/cuda/ on Linux). Follow NVIDIA’s installation instructions for your operating system.
+        Unzip and copy the files to the CUDA directory (typically /usr/local/cuda/ on Linux). Follow NVIDIA’s
+        installation instructions for your operating system.
 
     Add CUDA to Path:
     -----------------

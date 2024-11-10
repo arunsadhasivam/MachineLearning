@@ -61,30 +61,32 @@ After installing CUDA and cuDNN, you need to set the environment variables corre
 
     Set CUDA_HOME: This will point to the CUDA installation directory. For your case, the default path is:
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
 
 Steps to add this variable:
 
     Right-click This PC > Properties > Advanced system settings > Environment Variables.
     Under System variables, click New and create a variable called CUDA_HOME and set the value to:
 
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
 
 Add CUDA to the PATH: You need to add the following directories to your PATH environment variable:
 
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin
-    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp
 
 To add to PATH:
+===============
 
     Under System variables in the Environment Variables window, find and select the Path variable, then click Edit.
     Click New and add each of the paths mentioned above.
 
 Set CUDNN_INCLUDE_DIR and CUDNN_LIB_DIR (optional):
+======================================================
 
     CUDNN_INCLUDE_DIR should be set to the include folder where cudnn.h is located:
 
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include
+    C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include
 
 CUDNN_LIB_DIR should be set to the lib\x64 folder where cudnn.lib is located:
 
@@ -93,25 +95,33 @@ CUDNN_LIB_DIR should be set to the lib\x64 folder where cudnn.lib is located:
     These are not strictly required for Python libraries like PyTorch or TensorFlow, but they can be useful for compiling custom CUDA code.
 
 Step 5: Verify CUDA and cuDNN Installation
+==========================================
 
-    Check CUDA:
-        Open a Command Prompt and run:
+Check CUDA:
+============
+    Open a Command Prompt and run:
 
         nvcc --version
 
-        This should print the version of CUDA installed (in your case, CUDA 12.6).
+    This should print the version of CUDA installed (in your case, CUDA 12.6).
 
-    Check cuDNN: To verify that cuDNN is installed correctly, you can check if the cudnn64_8.dll file exists in the C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin directory.
+Check cuDNN:
+==============
+    
+    To verify that cuDNN is installed correctly, you can check if the cudnn64_8.dll file exists in the 
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin directory.
 
 Step 6: Test GPU Access in Python
+==================================
 
     For PyTorch: To verify if PyTorch can detect your GPU, run the following code in Python:
 
-import torch
-print(torch.cuda.is_available())  # Should print True if GPU is available
-print(torch.cuda.get_device_name(0))  # Should print the name of your GPU
+        import torch
+        print(torch.cuda.is_available())  # Should print True if GPU is available
+        print(torch.cuda.get_device_name(0))  # Should print the name of your GPU
 
 For TensorFlow: To verify if TensorFlow can detect your GPU, run the following code in Python:
+==============================================================================================
 
     import tensorflow as tf
     print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
@@ -119,13 +129,19 @@ For TensorFlow: To verify if TensorFlow can detect your GPU, run the following c
     If both frameworks show that your GPU is available, you're ready to use the GPU for computations.
 
 Step 7: Troubleshooting
+=======================
 
-    No GPU Detected:
-        If your GPU is still not being detected, check if the NVIDIA Driver is properly installed and the GPU is functioning correctly using nvidia-smi as described in Step 1.
-        Ensure you have installed the appropriate versions of CUDA and cuDNN compatible with each other and with the Python libraries you're using (PyTorch, TensorFlow).
+No GPU Detected:
+================
+    If your GPU is still not being detected, check if the NVIDIA Driver is properly installed and the GPU is functioning correctly using nvidia-smi as described in Step 1.
+    Ensure you have installed the appropriate versions of CUDA and cuDNN compatible with each other and with the Python libraries you're using (PyTorch, TensorFlow).
 
-    Reinstall CUDA and cuDNN: If you continue to face issues, it might be helpful to completely uninstall CUDA, cuDNN, and your GPU drivers and then reinstall them following the steps above.
+Reinstall CUDA and cuDNN: 
+==========================
+If you continue to face issues, it might be helpful to completely uninstall CUDA, cuDNN, and your GPU drivers and then reinstall 
+them following the steps above.
 
-Conclusion
+Conclusion:
+============
 
 By ensuring your CUDA_HOME, PATH, and cuDNN paths are set correctly, and verifying the installations with simple tests in Python, your GPU should be detected for use with frameworks like PyTorch or TensorFlow. Let me know if you encounter any issues!

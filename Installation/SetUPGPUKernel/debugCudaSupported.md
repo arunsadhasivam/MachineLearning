@@ -16,6 +16,10 @@ Step2:Check the nvidia gpu
 ![image](https://github.com/user-attachments/assets/fd57e99d-42d0-4bd3-ac40-513ffbf24072)
 
 
+Check initially in default kernal python (C:\Arun\Python\Python310)
+
+if kernal created in different folder c:\Arun\Workspace sometimes wont work.
+
 import torch
 
 print("CUDA Available:", torch.cuda.is_available())

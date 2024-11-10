@@ -111,7 +111,7 @@ If you’re using Jupyter Notebook, you can set up a kernel that uses your Conda
 Install Jupyter in the Conda Environment:
 =========================================
 
-  conda install jupyter
+       conda install jupyter
 
 Install ipykernel:
 ==================

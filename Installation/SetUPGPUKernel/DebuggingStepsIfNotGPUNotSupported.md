@@ -24,14 +24,15 @@ Step 3: Install cuDNN
 
 After installing CUDA, you will need to install cuDNN. Here's how you do it:
 
-CUDA PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin,C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib
+    CUDA PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin,C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib
 
-CUDA_CNN = C:\Program Files\NVIDIA\CUDNN\v9.5\bin, C:\Program Files\NVIDIA\CUDNN\v9.5\lib
+    CUDA_CNN = C:\Program Files\NVIDIA\CUDNN\v9.5\bin, C:\Program Files\NVIDIA\CUDNN\v9.5\lib
 
 
 VERY IMPORTANT:
 ================
 
+      
       after installatin of cudacnn make sure copy all C:\Program Files\NVIDIA\CUDNN\v9.5\lib, bin,include 
       to C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib,bin include.
 

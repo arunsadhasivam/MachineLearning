@@ -34,6 +34,18 @@ Install CUDA:
         Select the version compatible with the deep learning framework you intend to use (TensorFlow, PyTorch, etc.). 
         Each framework may require specific CUDA versions, so refer to its documentation.
 
+ Method : Check cuda path Environment Variables
+ ===============================================
+
+If CUDA is added to your environment variables, you can check its path this way:
+
+On Windows:
+===========
+
+    Open Command Prompt or PowerShell and type:
+
+          echo %CUDA_PATH%
+
 Install cuDNN:
 ==============
     

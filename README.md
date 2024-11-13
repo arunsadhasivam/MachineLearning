@@ -1,11 +1,13 @@
 # MachineLearning
 Readme.md
 
-Environments:
-==============
+Cloud Environments:
+====================
 
 collab -https://colab.research.google.com
+
 kaggle -https://www.kaggle.com/
+
 runpod.io - https://www.runpod.io/
 
 Generative AI 

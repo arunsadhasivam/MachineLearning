@@ -33,6 +33,7 @@ Visualizing Layer:
     temp = temp.min()
     #normalize the image like if we red,blue ,green max is 255 divide all vector by 255 gives the normalized vector.
     temp/=temp.max()
+    plt.inshow(temp)
 
 
 Prof Filters:

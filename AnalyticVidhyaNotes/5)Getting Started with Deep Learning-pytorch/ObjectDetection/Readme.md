@@ -19,4 +19,4 @@ Sequential Modelling:
   - chat bot - sequencing models
   - sequence models **capture order in which they appear**
   - sequence model - text data.
-  - 
+

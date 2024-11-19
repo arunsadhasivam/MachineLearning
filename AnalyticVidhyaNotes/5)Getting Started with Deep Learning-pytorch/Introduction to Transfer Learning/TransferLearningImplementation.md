@@ -42,8 +42,10 @@ CODE:
        for layers in my_model.layers[ :15]
           layer.trainable = false
        my_model.fit(x_train,y_train,epoch=10, validation_data=(x_valid,y_valid))
+       
 
   NOTE:
   =====
-    - Now model takes half the second to train then earlier. since we **freeze trainable =false**  above.
+  
+   - Now model takes half the second to train then earlier. since we  use **freeze trainable =false**  above.
     

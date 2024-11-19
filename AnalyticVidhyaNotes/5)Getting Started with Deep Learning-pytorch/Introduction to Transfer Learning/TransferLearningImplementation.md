@@ -19,7 +19,8 @@ CODE:
   =================================================================
   
       base_model = VGG16(weights='imagenet') 
-      
+      #preprocess input images according to requirements of VGG16 model.
+      x=pre_process_input(X,mode='tf')
       #functional layer activation function instead of sequential
       x = Dense(100, activation='relu', name='fcl') (base_model.layers[:4].output)
       

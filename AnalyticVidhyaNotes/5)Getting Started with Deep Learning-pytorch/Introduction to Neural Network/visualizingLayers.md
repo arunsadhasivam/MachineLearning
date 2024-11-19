@@ -28,9 +28,22 @@ To iterate each portion of image and display the image
           ax[i][j].set_yticks([])
           filter_no++
 
+Neural Network vs Convolution Neural Network
+=============================================
+
 
 N/w Layer N/w                            |     CNN
 -----------------------------------------|----------------------------------
  weights,Bias                            |   weights,bias,Filter( images)
- 
+
+
+NOTE:
+=====
+
+- Only visualize first layer of CNN as filter can be represented in RGB Format.
+- As we go Deeper harder to visualize since **no color**. hence visualize weights on first layer.
+
+  
+  
+
  

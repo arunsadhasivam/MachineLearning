@@ -63,8 +63,8 @@ Steps:
  Steps for Transfer Learning:
  ===========================
 
- 1) Training Part:
- =================
+ 1.Training Part:
+ ================
       1) import necessary libraries
       2) Load data
       3) preprocess Data
@@ -73,7 +73,7 @@ Steps:
          is_Emergency or non-emergency vehicle.
       7) validate if it work or revise the fine part.
          
-  2) Prediction:
+  2.Prediction:
   ==============
 
       1) Get Predictions of new Data.

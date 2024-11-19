@@ -55,6 +55,31 @@ Steps:
  --------------------------------------------|--------------------------------------- 
  1)10,000 Objects classes categories         |  Digit  classifier
  2)Images 1.2M train look test               |  10 classes (0-9)
-                                             
+
+ NOTE:
+ =====
+ since imagenet is relevant  VGG16 is irrelevant.
+
+ Steps for Transfer Learning:
+ ===========================
+
+ 1) Training Part:
+    ==============
+      1) import necessary libraries
+      2) Load data
+      3) preprocess Data
+      4) Load weights of pre-trained Model - Existing instead building whole model  , just choose needed parameters and then train the model.
+      5) Fine Tune for current LLM Model - by avoiding unnecessary parameters . In case of Emergency classification just choose parameter
+         is_Emergency or non-emergency vehicle.
+      7) validate if it work or revise the fine part.
+         
+  2) Prediction:
+     ===========
+
+      1) Get Predictions of new Data.
+    
+    
+ 4) 
+ 5) 
 
 

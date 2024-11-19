@@ -17,11 +17,11 @@ Corpus:
 
     Corpus --> Document,Tweets,Articles  --->  Sentences   ---> Tokens(words,character,n-grams)
 
-  **N-gram**    - n consecutive tokens "I Like this town"
-  
-  **Unigram(n=1)**- I , Love, this town
-  
-  **Bigram(n=2)** - I Love, love this, this town
-  
-  **Trigram(n=3)**- I Love this, love this town
+Types:
+======
+
+ 1) **N-gram**    - n consecutive tokens "I Like this town"
+ 2) **Unigram(n=1)**- I , Love, this town
+ 3) **Bigram(n=2)** - I Love, love this, this town
+ 4) **Trigram(n=3)**- I Love this, love this town
   

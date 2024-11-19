@@ -1,5 +1,5 @@
-Options to Extract important portion of image:
-==============================================
+Attemp4 - Options to Extract important portion of image:
+==========================================================
 
 1) we hide particular section of image and check whether model able to classify image or how
    confident in detecting correct class of image, without that portion of image.

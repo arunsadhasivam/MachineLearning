@@ -64,7 +64,7 @@ Steps:
  ===========================
 
  1) Training Part:
-    ==============
+ =================
       1) import necessary libraries
       2) Load data
       3) preprocess Data
@@ -74,12 +74,11 @@ Steps:
       7) validate if it work or revise the fine part.
          
   2) Prediction:
-     ===========
+  ==============
 
       1) Get Predictions of new Data.
     
     
- 4) 
- 5) 
+
 
 

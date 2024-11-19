@@ -125,6 +125,13 @@ If you want to use this environment in Jupyter Notebook with GPU support:
     pip install ipykernel
     python -m ipykernel install --user --name=gpu_env --display-name "Python (GPU)"
 
+if not working in specific kernel(check whether pytorch-cuda  for nvidia is installed):
+=======================================================================================
+
+check whether pytorch-cuda  for nvidia is installed.
+
+    conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch-nightly -c nvidia
+
 Start Jupyter Notebook:
 =======================
 

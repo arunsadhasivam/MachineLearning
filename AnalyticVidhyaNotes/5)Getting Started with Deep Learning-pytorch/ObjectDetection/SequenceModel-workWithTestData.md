@@ -27,3 +27,18 @@ SNO| Name              |  Output
  3)| **Bigram(n=2)**  | I Love, love this, this town
  4)| **Trigram(n=3)** | I Love this, love this town
   
+
+
+Toenization:
+============
+
+   split words to token using white space tokenizer.
+   
+   e.g
+   ====
+
+   **sentence** :  " I went to stadium to play football" 
+   **tokens**   : "I", "went" ,"to","stadium","to","play","football"
+   
+
+  

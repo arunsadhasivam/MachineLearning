@@ -2,8 +2,10 @@
 Options to check confidence of Image by filter:
 ===============================================
 
+1.OcclusionMap
+===============
 
-1) OcclusionMap
+- block portion of image and check confidence of image output
    
 2.Sailency Map
 ===============

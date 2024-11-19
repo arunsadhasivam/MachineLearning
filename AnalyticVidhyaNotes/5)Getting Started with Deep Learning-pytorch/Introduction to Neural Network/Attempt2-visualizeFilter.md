@@ -28,11 +28,11 @@ Visualizing Layer:
 ===================
 
 
-  #weights of first filter.
-  temp = model.get('conv').get_weights()[0][:,:,:,0]
-  temp = temp.min()
-  #normalize the image like if we red,blue ,green max is 255 divide all vector by 255 gives the normalized vector.
-  temp/=temp.max()
+    #weights of first filter.
+    temp = model.get('conv').get_weights()[0][:,:,:,0]
+    temp = temp.min()
+    #normalize the image like if we red,blue ,green max is 255 divide all vector by 255 gives the normalized vector.
+    temp/=temp.max()
 
 
 Prof Filters:

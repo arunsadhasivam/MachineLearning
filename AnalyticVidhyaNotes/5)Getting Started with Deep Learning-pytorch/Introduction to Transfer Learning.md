@@ -1,7 +1,3 @@
-
-<details><summary>Introduction to Transfer Learning</summary>
-<p>
-
 Definition:
 ===========
 
@@ -62,5 +58,3 @@ Steps:
                                                
 
 
- </p>
-</details> 

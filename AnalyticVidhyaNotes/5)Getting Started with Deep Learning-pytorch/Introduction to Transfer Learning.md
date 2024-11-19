@@ -50,11 +50,11 @@ Steps:
 1) how to choose right Pre-trained Model for Emergency vs Non-Emergency vehicles.
 2) since image problems choose VGG16, MNIST
 
-   --------------------------------------------|---------------------------------------
-   Imagenet                                    |                 MNIST
-   --------------------------------------------|--------------------------------------- 
-   1)10,000 Objects classes categories         |  Digit  classifier
-   2)Images 1.2M train look test               |  10 classes (0-9)
-                                               
+ --------------------------------------------|---------------------------------------
+ Imagenet                                    |                 MNIST
+ --------------------------------------------|--------------------------------------- 
+ 1)10,000 Objects classes categories         |  Digit  classifier
+ 2)Images 1.2M train look test               |  10 classes (0-9)
+                                             
 
 

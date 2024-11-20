@@ -51,22 +51,26 @@ Once Weaviate is running, you can check its status.
 
 Send a GET request to the /.well-known/ready endpoint:
 
-    Command:
+Command:
+=========
 
-curl http://localhost:8080/v1/.well-known/ready
+        curl http://localhost:8080/v1/.well-known/ready
 
 Expected Response:
+===================
 
     {
       "status": "ok"
     }
 
 This indicates that the server is ready to process requests.
+
 2.2 Check Logs
+=================
 
 If you don't see status: ok, check the logs for errors:
 
-docker logs weaviate_weaviate
+    docker logs weaviate_weaviate
 
 Step 3: Interact with Weaviate
 ===============================
@@ -119,15 +123,15 @@ If you want to use prebuilt vectorization modules (e.g., OpenAI, Hugging Face tr
 Example for OpenAI Integration:
 
 Add the following lines under the environment section:
-
-DEFAULT_VECTORIZER_MODULE: "text2vec-openai"
-ENABLE_MODULES: "text2vec-openai"
-OPENAI_APIKEY: "your-openai-api-key"
+    
+    DEFAULT_VECTORIZER_MODULE: "text2vec-openai"
+    ENABLE_MODULES: "text2vec-openai"
+    OPENAI_APIKEY: "your-openai-api-key"
 
 Restart the container:
 
-docker-compose down
-docker-compose up -d
+    docker-compose down
+    docker-compose up -d
 
 Step 5: Test Adding and Retrieving Data
 ========================================

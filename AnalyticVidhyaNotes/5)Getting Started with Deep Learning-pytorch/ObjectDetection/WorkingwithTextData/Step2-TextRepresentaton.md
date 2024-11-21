@@ -42,8 +42,8 @@ e.g
 
 above e.g one hot encoding is
 
- bus   - [0 , 1, 0 , 0 , 0]
- train - [0,  1, 0,  0 , 0]
+       bus   - [0 , 1, 0 , 0 , 0]
+       train - [0,  1, 0,  0 , 0]
 
  in above no details stored, it has no data or details of context( bus or train) like above 
  difference is wrods in sentence (bus or train). it does not store any context bus and train.

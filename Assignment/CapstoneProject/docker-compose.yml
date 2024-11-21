@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  weaviate:
+    image: semitechnologies/weaviate:latest
+    ports:
+      - "8080:8080"
+    environment:
+      QUERY_DEFAULTS_LIMIT: 100
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true'
+      PERSISTENCE_DATA_PATH: "./data"
+      #DEFAULT_VECTORIZER_MODULE: "none" # Change this to "text2vec-openai" for OpenAI integration
+      #ENABLE_MODULES: "none"           # Change to enable modules like "text2vec-transformers"
+      DEFAULT_VECTORIZER_MODULE: "text2vec-openai"
+      ENABLE_MODULES: "text2vec-openai"
+      OPENAI_APIKEY: "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"

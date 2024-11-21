@@ -30,3 +30,20 @@ Step 2- Text Representation:
   The Book is good. |  the book is good                            | the , book, is ,good
              
    
+one Hot Encoding Limiations:
+============================
+
+one hot encoding do not capture any context , it has details of only word.
+
+e.g
+
+1) "the bus is running late"    
+2) "the train is running late"
+
+above e.g one hot encoding is
+
+ bus   - [0 , 1, 0 , 0 , 0]
+ train - [0,  1, 0,  0 , 0]
+
+ in above no details stored, it has no data or details of context( bus or train) like above 
+ difference is wrods in sentence (bus or train). it does not store any context bus and train.

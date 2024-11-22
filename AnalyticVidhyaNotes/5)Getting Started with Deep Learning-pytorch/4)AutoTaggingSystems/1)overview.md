@@ -29,7 +29,7 @@ Two Tags are possible.
    2    | X2             |  [t1,t3,t2] tag: regression
    3    | X3             | [t4] tag: numpy
 
-  Understand dataset:
+  1)Understand dataset:
   ====================
 
   build a model to suggest Tag
@@ -41,4 +41,77 @@ Two Tags are possible.
   ----|--------------|--------------|-------|-------|-------------
 
 
+  code:
+  ======
+
+        def cleaner(text):
+              text = beautifulsoup(text).get_text()
+              text = re.sub('^[a-zk-z]"," ",text)
+              text = text.lower()
+              tokens = text.split()
+              return "".join(token)
+
+       question_df['cleaned-text']= question_df["body"].apply(clener)
+       question_df["body"][1]
+       question_df["cleaned_text"][1]
+
+
+  Tag Dataset:
+  ============
+  
+       tags_df['tag'].unique()
+       tags_df['tag']= tags_df['tag'].apply(lamda.x:re.sub("."," ",x)
+
+       tags_df = tags_df.groupby('id')
+                        .apply(lambda->x:x['tag'].values)
+                        .reset_index(name='tags')
+
+  mergeto question with tag df:
+  ===============================
+
+       df = pd.merge(question_df,tags_df,how='inner' on ='id')
+        
+
+
+  2)Dataset Preparation:
+  =======================
+
+
+  Get freq of each tag:
+  =======================
+
+        freq={}
+        for i in df['tags']:
+          for j in freq.keys:
+             freq[j]= freq[i]+1
+          else
+             freq[j]=1;
+    
+      freq  = dict(sorted(freq.items(),key=lambda.x:x[1],reverse=true)
+
+      //since sequence sorting is important.
+
+  Top 10 tags:
+  ============
+
+     comment_tags = list(freq.keys())[:10]
+
+
+we only then assign questions to only questions that map to top 10 tags:
+=========================================================================
+
+
+       x=[]
+       y=[]
+       for i in range( len(df['tags'])):
+          temp=[]
+       for j in df['tags'][i]:
+          if j in common_tags:
+             temp.append(j)
+          if len(temp>1):
+             x.append(df['cleaned_text'][i]
+             x.append(temp)
+
+
+       
   

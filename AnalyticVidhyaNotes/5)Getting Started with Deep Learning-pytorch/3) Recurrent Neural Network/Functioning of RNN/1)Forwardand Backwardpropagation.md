@@ -30,3 +30,7 @@ Note:Not feed forward n/w
 
 - RNN has memory or feedback, since it needs to recognize the sequence , hence it is not a feed forward n/w.
 
+NOTE:
+====
+
+since RNN are sequential, we cannot parallelize the each sequence timestamp.

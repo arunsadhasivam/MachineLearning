@@ -7,7 +7,7 @@ how RNN function
 forward propagation in training.
 
 ![image](https://github.com/user-attachments/assets/f5ad0b8a-5b52-4531-8091-dac0374e66fd)
-
+![image](https://github.com/user-attachments/assets/a634dd92-e49c-4ac2-a36f-bf1f31714f2e)
 
 - hidden state(ho,h1) -> is a function of previous function i.e h1 = g(w.ho+uk1)
 
@@ -16,7 +16,10 @@ Back Propagation:
 =====================
 
 
-![image](https://github.com/user-attachments/assets/a634dd92-e49c-4ac2-a36f-bf1f31714f2e)
+
+
+![image](https://github.com/user-attachments/assets/c968a139-15e3-42ae-9440-51dc018e620a)
+
 
 - loss calculated at final timestamp(y-y^)
 -  partial derivative of Loss/Partial derivative of dv

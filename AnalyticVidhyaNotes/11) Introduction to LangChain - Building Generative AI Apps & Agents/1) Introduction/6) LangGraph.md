@@ -43,4 +43,8 @@ Cycles:
   info on worldcup 2022. so it reason, if it does not have it searches google and build knowledge base.
  - cycle is first thought, decision, action- this is cycle loop to model agent as graph
 
- 
+ LangGraph for Multi-agent workflow:
+ =====================================
+
+
+ - multi-agent workflow involves multiple independent  agents powered  by LLM connected in a specific way.

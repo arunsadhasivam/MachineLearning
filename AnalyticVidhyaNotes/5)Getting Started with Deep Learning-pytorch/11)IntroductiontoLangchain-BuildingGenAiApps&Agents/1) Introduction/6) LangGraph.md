@@ -25,3 +25,13 @@ Flow:
                                  V
                                  End  
            
+
+
+Cycles:
+=======
+
+
+      Task ---> Tools ----->
+        |     /       <-----  Environment
+        |   /
+        LLM

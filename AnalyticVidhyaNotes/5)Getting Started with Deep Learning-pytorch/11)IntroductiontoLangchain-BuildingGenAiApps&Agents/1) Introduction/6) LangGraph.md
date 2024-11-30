@@ -12,3 +12,16 @@ LangGraph:
    - **Edges** - specify directional paths between nodes
   
    - **Stateful Graphs**: Manage and update state objects  while processing data through nodes.
+ 
+
+Flow:
+=====
+        LLM -----> run agent <------ run tools
+                        \              /
+                          \           /
+                            \        /
+                             Tool_calls
+                                 |
+                                 V
+                                 End  
+           

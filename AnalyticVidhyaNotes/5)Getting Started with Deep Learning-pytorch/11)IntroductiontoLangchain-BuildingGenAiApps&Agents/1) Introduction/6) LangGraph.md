@@ -34,4 +34,12 @@ Cycles:
       Task ---> Tools ----->
         |     /       <-----  Environment
         |   /
-        LLM
+        V  V ---| Reasoning loop
+        LLM-----| 
+
+- Let says question " who won world cup" llm reason checks knowledge base whether it has information.
+- let says chatgpt only have info till 2022, so this reasoning cycle helps to reason whether " i have
+  info on worldcup 2022. so it reason, if it does not have it searches google and build knowledge base.
+ - cycle is first thought, decision, action- this is cycle loop to model agent as graph
+
+ 

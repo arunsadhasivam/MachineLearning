@@ -19,3 +19,13 @@ Build Retriever on top of vector db:
 when query it searches the vector db . it transform query to embedding vector and searches
 db which already stored with vector of documents. it searches based on 
 cosine similarity or other searching strategy.
+
+
+Document Loader:
+=================
+
+
+popular document loader to load data from source. source can be pdf,ppt to extract text data
+and relevant metadata like pageno,authorname . langchain has loader for every posssible data.
+
+unstructured.io -> langchain has binding to unstructured .io to load from pdf and other unstructured data.

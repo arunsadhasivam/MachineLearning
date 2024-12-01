@@ -29,3 +29,6 @@ popular document loader to load data from source. source can be pdf,ppt to extra
 and relevant metadata like pageno,authorname . langchain has loader for every posssible data.
 
 unstructured.io -> langchain has binding to unstructured .io to load from pdf and other unstructured data.
+
+pdf loader -> langchain has integration with pdf loaders.pypd,pymupdf(fatest),pdfminer .
+used to extract ocr data aswellas

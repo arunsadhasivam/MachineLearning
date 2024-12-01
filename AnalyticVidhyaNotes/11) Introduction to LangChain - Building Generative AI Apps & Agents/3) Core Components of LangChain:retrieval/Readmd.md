@@ -11,3 +11,11 @@ Steps:
                 llm understand only numbers. usually llm call to get embeeddings.
         step4->   store in vector db to avoid unnecessary llm call. since llm calls are cost.
                  also you llm cache,stream. llm supports asynchronous (astream ) and stream.
+
+
+Build Retriever on top of vector db:
+=====================================
+
+when query it searches the vector db . it transform query to embedding vector and searches
+db which already stored with vector of documents. it searches based on 
+cosine similarity or other searching strategy.

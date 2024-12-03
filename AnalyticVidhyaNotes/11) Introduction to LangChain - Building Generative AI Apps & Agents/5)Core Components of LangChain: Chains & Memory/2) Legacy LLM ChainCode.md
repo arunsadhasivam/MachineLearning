@@ -37,5 +37,13 @@ step 5: invoke LLM:
 
 
 
-step 6: invoke LLM:
-===================
+step 6:print and format result:
+================================
+
+![image](https://github.com/user-attachments/assets/4b801095-2698-4e4c-8c45-0ee3ae7e8d1b)
+
+![image](https://github.com/user-attachments/assets/4fa41559-cf82-4d0c-bfc0-bdb371c44c2d)
+
+![image](https://github.com/user-attachments/assets/ff9fdff3-c23c-4f07-a51e-ebfdff296612)
+
+

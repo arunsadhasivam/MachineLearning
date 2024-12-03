@@ -54,4 +54,53 @@ reasoning and acting ,it can access all intermediate steps, messages from scratc
 ![image](https://github.com/user-attachments/assets/8a16def4-02df-4c91-b0c5-c87aafffa833)
 
 
+NOTE:
+=====
+
+- Agent does not execute those actions - that is executed by AgentExecutor.
+- passing in model chatgpt,not chat_gpt_with_tools.
+- create_tool_calling_agent will call .bind_tools   for us behind under the hood.
+- finally , we combine the agent( the brains)  with tools inside the Agent Executor ( which will
+  repeatedly call agent and execute tools).
+
+  
+  ![image](https://github.com/user-attachments/assets/5a4a3cbe-8993-4530-b8b6-ea35c1228f3b)
+
+Response:
+==========
+  ![image](https://github.com/user-attachments/assets/3c223736-b800-428e-b7f7-e4d751139017)
+
+
+
+Step 5: Combine Agent(brain) with tools:
+=========================================
+
+
+finally we combine Agent(brains) with the tools inside the Agent Executor (which will repeatedly call the agent
+and exectute tools).
+
+
+![image](https://github.com/user-attachments/assets/5012ed36-45c5-4f3f-9397-61fcb4ae6c08)
+
+Response:
+=========
+
+![image](https://github.com/user-attachments/assets/84373dcd-6c54-4cfc-9937-f173d79a06b2)
+
+Step 6:Query:
+==============
+
+send query to chatgpt and agent executor.
+
+![image](https://github.com/user-attachments/assets/02215c11-8e9e-46d5-a835-027409df12ed)
+
+
+Agent Executor uses Agent to figure out answer if it does not know or not have data.
+
+![image](https://github.com/user-attachments/assets/6bcf59ad-4b17-4b20-a3a4-167bc623bcdb)
+
+Step 7: format output:
+=======================
+
+![image](https://github.com/user-attachments/assets/ca2ec55d-dedd-4ba2-8ec0-0a7a294e46b6)
 

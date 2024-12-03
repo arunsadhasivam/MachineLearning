@@ -125,3 +125,23 @@ history and current query is feed to prompt using **RunnablePassThrough.assign()
 ![image](https://github.com/user-attachments/assets/4ca5e5c3-c5c4-4789-85c4-0d9e9ae1c1ad)
 
 ![image](https://github.com/user-attachments/assets/32d17544-fb85-4382-993b-22293e67f1d9)
+
+
+step 6:view response:
+=====================
+
+![image](https://github.com/user-attachments/assets/55198ce7-cb03-482b-9e38-24c4dadc524a)
+
+
+step 7:save context and view memory variables:
+=============================================
+ 
+![image](https://github.com/user-attachments/assets/7e2c0060-e22d-4963-9cc3-38796ac5e706)
+
+
+
+step 8:try other query to test memory context:
+=============================================
+
+![image](https://github.com/user-attachments/assets/14ca1ace-80ea-4dc4-9734-051914ac0abe)
+

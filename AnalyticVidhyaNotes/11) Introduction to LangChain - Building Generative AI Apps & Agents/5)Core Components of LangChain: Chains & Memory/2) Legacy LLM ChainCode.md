@@ -47,3 +47,51 @@ step 6:print and format result:
 ![image](https://github.com/user-attachments/assets/ff9fdff3-c23c-4f07-a51e-ebfdff296612)
 
 
+
+<details><summary>2.Sequential CHain</summary>
+<p>
+
+
+ 2.Sequential CHain:
+====================
+
+
+4 steps
+
+Step 1: create a chain:
+=======================
+
+let say we have it support queue
+
+![image](https://github.com/user-attachments/assets/90bc8d5f-c398-4818-8d72-a1c80f6de629)
+
+
+
+Step 2: create a sequentialchain and LLMChain:
+===============================================
+
+- SequentialChain and multiple LLMChain.
+- objective is individual chain takes care of specific subtasks and use LLMChain to merge the tasks.
+
+  create a first chain with prompt template and customer message in place holder and language as
+  key "output_key" for translation language in dictionary.
+
+  ![image](https://github.com/user-attachments/assets/efaa2e2c-a3c6-4e25-8124-a5c89981e0e5)
+
+prompt 2 chain and add prompt3  - generate resolution response in english.
+
+![image](https://github.com/user-attachments/assets/2fb2ea71-4a2f-4dc7-baaf-e685ec21597c)
+
+
+![image](https://github.com/user-attachments/assets/c94c52de-3ede-41eb-80ac-dae44f29256f)
+
+
+prompt4
+
+![image](https://github.com/user-attachments/assets/bbb4e852-2b3f-407b-b5c8-498d0e9489f2)
+
+
+
+
+ </p>
+</details> 

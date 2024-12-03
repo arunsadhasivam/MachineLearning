@@ -172,7 +172,7 @@ question2:
 ===========
    how about dubai.
 
-here it understand they are asking bangalore or dubai
+here it understand  whether they are asking bangalore or dubai
 
 
  question 3:
@@ -184,5 +184,5 @@ here it understand they are asking bangalore or dubai
 
 ![image](https://github.com/user-attachments/assets/f764e0c0-2fa4-4cdb-87bd-285a226b265c)
 
-here it understand they are asking bangalore or dubai
+here it understand whether they are asking bangalore or dubai
 ![image](https://github.com/user-attachments/assets/a43634b9-7a8a-49d9-a98d-86bf10be43fa)

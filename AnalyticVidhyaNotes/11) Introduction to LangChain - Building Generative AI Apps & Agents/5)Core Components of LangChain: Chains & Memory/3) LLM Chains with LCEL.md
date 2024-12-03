@@ -42,8 +42,8 @@ Steps 2:Invoke LLM to get response:
 
 ![image](https://github.com/user-attachments/assets/a7a181bd-9dc5-48db-9b9c-e7416b0ee833)
 
-Steps 3:Also add parser:
-========================
+Steps 3:Also add extra parser:
+==============================
 extra standard parser added in the flow as in show below screen shot.
 ![image](https://github.com/user-attachments/assets/4b81937f-01f0-4bf2-876e-b4c67c752002)
 

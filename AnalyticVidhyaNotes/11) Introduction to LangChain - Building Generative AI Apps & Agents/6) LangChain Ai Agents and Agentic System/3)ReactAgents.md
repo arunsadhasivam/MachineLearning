@@ -141,3 +141,48 @@ use SQLCHatMessageHistory  - to create conversational Agent.
 
 ![image](https://github.com/user-attachments/assets/089f05e9-4990-4c1d-a4c6-f99f064bac6f)
 
+simulate user 2 agent using agent. here it remember history of previous question.
+here you can see
+
+User 1:
+=======
+
+
+  question 1:
+  ===========
+  
+      tell me who won champion league
+  question 2:
+  ===========
+  
+      tell me more about that event - second prompt it remember first question
+     based on that champion league it correlate and answer .
+  
+  ![image](https://github.com/user-attachments/assets/3af5da4f-8736-40f3-9b4b-8aa2bb919f40)
+
+
+User 2:
+=======
+
+question1: 
+===========
+  how is whether in bangalore
+
+question2: 
+===========
+   how about dubai.
+
+here it understand they are asking bangalore or dubai
+
+
+ question 3:
+ ===========
+
+ which city is hotter
+ 
+![image](https://github.com/user-attachments/assets/c408680d-e72b-402c-a4eb-75da67db04f1)
+
+![image](https://github.com/user-attachments/assets/f764e0c0-2fa4-4cdb-87bd-285a226b265c)
+
+here it understand they are asking bangalore or dubai
+![image](https://github.com/user-attachments/assets/a43634b9-7a8a-49d9-a98d-86bf10be43fa)

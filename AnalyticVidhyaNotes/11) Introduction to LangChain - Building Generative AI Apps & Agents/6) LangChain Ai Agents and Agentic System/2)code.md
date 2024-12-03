@@ -37,12 +37,18 @@ call invoke of tools to invoke appropriate tools
 5)Tools calling:
 ================
 
+iterate over tools to find right tool for input
+
 ![image](https://github.com/user-attachments/assets/ab9534b9-b3c4-498e-b9b8-fd6aae72fbe9)
+
+
+
+  Response:
+  ==========
 ![image](https://github.com/user-attachments/assets/d91faaf8-d157-46bc-9211-5698428ba613)
 ![image](https://github.com/user-attachments/assets/c3d344d0-8aaf-4fc1-ac42-e1e3b8b18775)
 ![image](https://github.com/user-attachments/assets/e2684f16-478b-411e-9f35-b18fda66040b)
 
 
 
-  Response:
-  ==========
+

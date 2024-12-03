@@ -27,3 +27,9 @@ Custom LCEL chain:
 ==================
 
 ![image](https://github.com/user-attachments/assets/3811d91a-39fb-491b-b240-bdd7927bfbe4)
+
+
+Advantages:
+===========
+
+![image](https://github.com/user-attachments/assets/47f57ddd-a87e-4a40-be14-9132205202d0)

@@ -1,6 +1,5 @@
 
-<details><summary>1.Simple LLM Chain with LCEL</summary>
-<p>
+
 
 Flow:
 ====
@@ -56,5 +55,4 @@ Steps 4:Print Result:
 ![image](https://github.com/user-attachments/assets/eb633b0d-1150-45b0-8e4c-3b301a3b6de5)
 
 
-</p>
-</details> 
+

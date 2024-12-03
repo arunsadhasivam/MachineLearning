@@ -27,3 +27,15 @@ first import LLMChain and **use prompt Template and link to chatgpt LLM chain us
 
 ![image](https://github.com/user-attachments/assets/8b76abb7-a604-4c9f-8c6d-c779ec202e73)
 
+step 5: invoke LLM:
+===================
+
+![image](https://github.com/user-attachments/assets/e157c4f9-39f1-402f-bd85-c7501500411b)
+
+
+![image](https://github.com/user-attachments/assets/2235403b-82f9-4deb-99dc-c7380573cf0c)
+
+
+
+step 6: invoke LLM:
+===================

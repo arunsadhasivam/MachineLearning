@@ -1,3 +1,6 @@
+<details><summary>1.LLM setup and first chain</summary>
+<p>
+
 Step 1: install langchain and other modules:
 =============================================
 
@@ -45,6 +48,10 @@ step 6:print and format result:
 ![image](https://github.com/user-attachments/assets/4fa41559-cf82-4d0c-bfc0-bdb371c44c2d)
 
 ![image](https://github.com/user-attachments/assets/ff9fdff3-c23c-4f07-a51e-ebfdff296612)
+
+
+ </p>
+</details> 
 
 
 

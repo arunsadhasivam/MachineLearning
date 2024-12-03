@@ -76,22 +76,49 @@ Step 2: create a sequentialchain and LLMChain:
   create a first chain with prompt template and customer message in place holder and language as
   key "output_key" for translation language in dictionary.
 
-  ![image](https://github.com/user-attachments/assets/efaa2e2c-a3c6-4e25-8124-a5c89981e0e5)
+![image](https://github.com/user-attachments/assets/3b6a5740-4df1-4b43-ac80-bae5717bfc47)
 
 prompt 2 chain and add prompt3  - generate resolution response in english.
 
-![image](https://github.com/user-attachments/assets/2fb2ea71-4a2f-4dc7-baaf-e685ec21597c)
+![image](https://github.com/user-attachments/assets/bf9321dd-379a-4a30-8c9a-a36445821ef2)
 
 
-![image](https://github.com/user-attachments/assets/c94c52de-3ede-41eb-80ac-dae44f29256f)
+![image](https://github.com/user-attachments/assets/d0dc3ee9-5096-42fe-a083-3f5d4a2f66e0)
 
 
 prompt4
 
-![image](https://github.com/user-attachments/assets/bbb4e852-2b3f-407b-b5c8-498d0e9489f2)
+![image](https://github.com/user-attachments/assets/2266356d-469a-48f3-af90-98c8c7c27fd0)
 
 
+Link all 4 chains:
+==================
 
+link all chains sequentially , provide input and outptut data (what want to see in response), 
+verbose to true to see all intermediate results.
+
+
+![image](https://github.com/user-attachments/assets/041acf50-3cd6-492b-891b-f28b49e851d7)
+
+
+response with formatted:
+=========================
+
+![image](https://github.com/user-attachments/assets/e3dada75-5efe-494a-8323-42e130321c07)
+
+run chain of all messages:
+==========================
+
+![image](https://github.com/user-attachments/assets/e7f25341-fcfd-4d67-82c7-4910cf3d058a)
+
+one of the result:
+
+![image](https://github.com/user-attachments/assets/08fca45b-453c-4776-8b93-4522631fe050)
+
+formatted result:
+==================
+
+![image](https://github.com/user-attachments/assets/2863054d-39d9-4b7c-a315-8ef37d120877)
 
  </p>
 </details> 

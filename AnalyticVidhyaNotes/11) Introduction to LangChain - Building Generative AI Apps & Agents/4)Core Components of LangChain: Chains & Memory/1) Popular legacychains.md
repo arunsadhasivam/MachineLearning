@@ -21,4 +21,4 @@ New Flow:
 LangChain Expression Language.
 become defacto standard now.
 
-![image](https://github.com/user-attachments/assets/90f35d99-51d4-4b87-8079-83b0c99e2f79)
+![image](https://github.com/user-attachments/assets/7018d809-7c4a-460f-97bc-df2c544bfa8e)

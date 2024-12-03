@@ -102,5 +102,42 @@ Agent Executor uses Agent to figure out answer if it does not know or not have d
 Step 7: format output:
 =======================
 
-![image](https://github.com/user-attachments/assets/ca2ec55d-dedd-4ba2-8ec0-0a7a294e46b6)
+  1.search tool:
+  ==============
+  
+  ![image](https://github.com/user-attachments/assets/ca2ec55d-dedd-4ba2-8ec0-0a7a294e46b6)
+  
+  2.Weather tool
+  ===============
+  ![image](https://github.com/user-attachments/assets/41e8b0c5-7389-46f9-a0ae-73eb8a5cf4a5)
+
+  3.Try to query with past reponse check whether it remembers:
+  ==============================================================
+
+  As you can see it does not able to rember previous chat.
+
+    ![image](https://github.com/user-attachments/assets/c6060332-2149-41c8-b854-bb2c0f6de386)
+
+    
+Step 8: Optimize - Advance Build and Test Multi-User Conversational AI Agent:
+==============================================================================
+
+
+use SQLCHatMessageHistory  - to create conversational Agent.
+![image](https://github.com/user-attachments/assets/0d9d729a-f223-4da7-a789-b50a5a3f1d9b)
+
+![image](https://github.com/user-attachments/assets/047c732e-770e-4651-91e1-64c90436c125)
+
+![image](https://github.com/user-attachments/assets/465b2df0-b040-4e5b-8496-d49593331341)
+
+
+  Conversation Chain + Agent
+  ==========================
+
+  here we plugin agent by adding RunnableMessageHistory(agent_executor)
+
+  
+![image](https://github.com/user-attachments/assets/89b3be62-6577-4fd1-8ab8-77bd01bdb9ba)
+
+![image](https://github.com/user-attachments/assets/089f05e9-4990-4c1d-a4c6-f99f064bac6f)
 

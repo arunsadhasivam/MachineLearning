@@ -17,7 +17,7 @@ Conversation :
   2) ConvesationBufferWindowMemory
   3) ConverstationSummaryMemory
   4) VectorStoreRetrieverMemory
-  5) ChatMessageHistory
+  5) ChatMessageHistory - wrapper to store messages in an in-memory list.easily to manage memory for multi-users and sessions
   6) SQLChatMessageHistory.
 
 ![image](https://github.com/user-attachments/assets/aa9d39aa-2cbc-4e69-9ae6-0a952dbf1b3a)

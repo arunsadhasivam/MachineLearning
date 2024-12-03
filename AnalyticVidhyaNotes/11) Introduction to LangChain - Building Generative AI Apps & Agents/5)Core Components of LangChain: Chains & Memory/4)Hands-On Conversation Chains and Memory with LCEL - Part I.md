@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f610eee7-156a-4e47-b696-87207cbbb3b1)
+![image](https://github.com/user-attachments/assets/d67875d0-cd12-4fb0-82c2-bf74fa4b24cf)![image](https://github.com/user-attachments/assets/f610eee7-156a-4e47-b696-87207cbbb3b1)
 Conversation :
 ==============
 
@@ -88,8 +88,40 @@ step 3: test function above with Runnable lambda:
 =================================================
 
 Test function with Runnable lamdba which will go into our chain.
-This returns history but also we need to send our currrent query to the prompt.
+Advantage is this returns history but also we need to send our currrent query to the prompt.
 
 ![image](https://github.com/user-attachments/assets/3892c7e3-058d-47fa-b11d-6d370c642626)
 
- 
+this behaves same as above function in step2 but can be plugged in to langChain chain.
+
+
+
+
+step 4: pass query to Runnable PassThrough:
+===========================================
+
+To pass current query untouched along with pass current prompt messages.
+
+![image](https://github.com/user-attachments/assets/c6a505ca-25a2-491d-a713-0db2624c7679)
+
+-will return history but also need to send current query to the prompt.
+as you can see we pass **query** with **history**
+it returns "query" with "history.
+
+ NOTE:
+====
+**Runnable Lambda** helps us to call the function at runtime.
+**Runnable Pass Through** enables us to not just history but also what is current prompt or message
+                          and both goes to LLM.
+
+
+
+step 5: use Conversation LLM Chain :
+======================================
+
+
+history and current query is feed to prompt using **RunnablePassThrough.assign()**
+
+![image](https://github.com/user-attachments/assets/4ca5e5c3-c5c4-4789-85c4-0d9e9ae1c1ad)
+
+![image](https://github.com/user-attachments/assets/32d17544-fb85-4382-993b-22293e67f1d9)

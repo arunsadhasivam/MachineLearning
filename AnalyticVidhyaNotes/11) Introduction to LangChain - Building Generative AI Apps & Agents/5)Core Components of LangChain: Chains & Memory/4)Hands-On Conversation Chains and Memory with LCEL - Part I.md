@@ -145,3 +145,13 @@ step 8:try other query to test memory context:
 
 ![image](https://github.com/user-attachments/assets/14ca1ace-80ea-4dc4-9734-051914ac0abe)
 
+
+step 9:Again check and test memory variables:
+=============================================
+
+As you can 2 prompt in memory "first four colours of rainbow" 
+and second question  " other 3 colors"
+
+![image](https://github.com/user-attachments/assets/713bb73b-6f0e-46a5-8ac9-67e4a10a6a1e)
+
+

@@ -71,6 +71,55 @@ it will be 4 bullet points (2 for ai , 2 for deeplearning)
 ![image](https://github.com/user-attachments/assets/bae119a3-58b0-4dcb-bb71-978e2351a79d)
 
 
+</p>
+</details>
+
+
+
+<details><summary>3.Converstation Chains with VectorStore Retriever Memory </summary>
+<p>
+
+
+USE:
+===
+
+Vector Store Retriever Memory stores historical conversation  messages in a vector stores and queries the **top -k 
+most "relevant" history messages** every time it is called.
+NOTE:
+=====
+
+This differs from most of the other memory classes in that it doesnt  explicitly track the order of interactions but
+retrieves history based on embedding similarity to current question or prompt.
+
+Step 1:Enable access to openAI Embedding models:
+================================================
+
+![image](https://github.com/user-attachments/assets/cb6f6643-b5a6-4f8c-9741-da308fed5e1a)
+
+Step 2:Create Vector DB (chroma) to store conversational history:
+==================================================================
+
+we use here chorma db and initialize an empty database collection to store conversational messages
+
+![image](https://github.com/user-attachments/assets/14c9d0a2-d8b3-4d7a-abd2-15f1fac3f53c)
+
+
+Step 3: use VectorStoreRetriever Memory instead of conversationMemory earlier
+=============================================================================
+
+
+![image](https://github.com/user-attachments/assets/68a5c827-cf7b-4e69-845c-1600974f616f)
+
+load 2 most similar conversational messages from vector db using cosine embedding similarity.
+![image](https://github.com/user-attachments/assets/f4bca505-b1ce-4ba6-922f-3bb1f7512deb)
+
+use runPassThrough to get current  question , historic messages  which  query similar k messages using cosine embedding similarity
+![image](https://github.com/user-attachments/assets/f6589305-aa98-44a3-9f3e-6133e7f86e4b)
+
+
+
+
+
 
 
 </p>

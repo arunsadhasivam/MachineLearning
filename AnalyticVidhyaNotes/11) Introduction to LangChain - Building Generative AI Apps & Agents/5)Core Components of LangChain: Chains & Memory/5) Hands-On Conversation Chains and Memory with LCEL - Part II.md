@@ -145,8 +145,8 @@ in terms of semantic similarity.
 NOTE:
 =====
 
-As you see for question "what about Machine Learning?" it checks previous 2 messages which are in similarity
-like "what about deep learning" and "tell me about AI" which is closest in similarity in terms of cosine similarity.
+As you see for question **"what about Machine Learning?"** it checks **previous 2 messages** which are similar
+like "**what about deep learning"** and **"tell me about AI"** which is closest in similarity in terms of cosine similarity.
 
 
 ![image](https://github.com/user-attachments/assets/d00b0a92-86be-415f-b6cc-f0dda50ef724)

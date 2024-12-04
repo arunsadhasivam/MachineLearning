@@ -117,9 +117,35 @@ use runPassThrough to get current  question , historic messages  which  query si
 ![image](https://github.com/user-attachments/assets/f6589305-aa98-44a3-9f3e-6133e7f86e4b)
 
 
+Step 4: query now:
+====================
+
+query and save context
+
+![image](https://github.com/user-attachments/assets/81bdb004-d53f-4b0f-8625-d334e862c340)
+
+every time , each query save context
+
+![image](https://github.com/user-attachments/assets/2866119f-12d4-4af5-af32-dfd1633cbb03)
+
+![image](https://github.com/user-attachments/assets/4e3d1a3c-ecf9-43ba-9381-0f88744c945b)
+
+![image](https://github.com/user-attachments/assets/98df7d00-3624-4967-958e-d14aa204d649)
 
 
 
+Step 5:understand what is behing scenes:
+========================================
+
+Now for every query around machine learning even if the most recent conversation messages have been about animals.
+it uses the vector databases to load the last 2 historical conversations which are closest to the current question
+in terms of semantic similarity.
+
+As you see for question "what about Machine Learning?" it checks previous 2 messages which are in similarity
+like "what about deep learning" and "tell me about AI" which is closest in similarity in terms of cosine similarity.
+
+
+![image](https://github.com/user-attachments/assets/d00b0a92-86be-415f-b6cc-f0dda50ef724)
 
 
 </p>

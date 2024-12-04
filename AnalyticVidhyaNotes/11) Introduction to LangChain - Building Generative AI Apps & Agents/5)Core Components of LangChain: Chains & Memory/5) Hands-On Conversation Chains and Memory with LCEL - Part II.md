@@ -141,6 +141,10 @@ Now for every query around machine learning even if the most recent conversation
 it uses the vector databases to load the last 2 historical conversations which are closest to the current question
 in terms of semantic similarity.
 
+
+NOTE:
+=====
+
 As you see for question "what about Machine Learning?" it checks previous 2 messages which are in similarity
 like "what about deep learning" and "tell me about AI" which is closest in similarity in terms of cosine similarity.
 

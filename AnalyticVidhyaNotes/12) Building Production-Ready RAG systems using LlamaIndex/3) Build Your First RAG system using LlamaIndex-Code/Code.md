@@ -77,6 +77,7 @@ method **index.as_retriever()** converts **index** to **retriever** and **retrie
 
 ![image](https://github.com/user-attachments/assets/81c7fe9d-9226-4f02-b805-fb0a359d5689)
 
+![image](https://github.com/user-attachments/assets/e016ed11-9043-4891-bd60-69cd201a5c9f)
 
 
 

@@ -82,6 +82,23 @@ method **index.as_retriever()** converts **index** to **retriever** and **retrie
 
 Step 4- Response Synthesizer:
 =============================
+get_response_synthesizer() from llamindex
+
+index.as_query_engine() to create query engine ,passing **llm** and **response synthesizer** as argument.
 
 ![image](https://github.com/user-attachments/assets/5ded0650-5c41-4c63-8d1f-9d70844eb417)
 
+Step 5 - Query Engine:
+======================
+
+- Finally, i am going to bind all these steps in to a query Engine.
+- So , i am setting up this index as a query Engine where i am going to pass
+  my llm and response synthesizer that we created just above. That gives us a pipeline.
+  This is my retriever and response synthesizer in a single query pipeline.
+- Now, since our query engine is ready. Now since query Engine is already set.
+  Now make query to query Engine directly , i dont have to repeat all steps.i can just
+  fire up query here.
+  
+
+
+![image](https://github.com/user-attachments/assets/d8a1f449-664b-4870-bec6-a0d84e987619)

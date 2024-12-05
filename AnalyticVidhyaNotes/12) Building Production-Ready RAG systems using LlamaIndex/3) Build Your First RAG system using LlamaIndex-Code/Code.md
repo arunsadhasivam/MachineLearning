@@ -80,4 +80,8 @@ method **index.as_retriever()** converts **index** to **retriever** and **retrie
 ![image](https://github.com/user-attachments/assets/e016ed11-9043-4891-bd60-69cd201a5c9f)
 
 
+Step 4- Response Synthesizer:
+=============================
+
+![image](https://github.com/user-attachments/assets/5ded0650-5c41-4c63-8d1f-9d70844eb417)
 

@@ -10,3 +10,10 @@ Components of LlamaIndex:
    generate appropriate response.
    
 ![image](https://github.com/user-attachments/assets/97a9ab0a-90c8-4853-ab69-aa3b2f6c435d)
+![image](https://github.com/user-attachments/assets/4442efc8-9735-49ae-985a-a614f372ab48)
+
+
+Query Engine combines Retriever and Response Synthesizer to build end-end pipeline for RAG.
+it allows you to ask questions over data and take in natural language query and finally
+returns reponse.
+

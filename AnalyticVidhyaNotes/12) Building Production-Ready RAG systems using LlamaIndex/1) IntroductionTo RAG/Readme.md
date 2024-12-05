@@ -21,7 +21,8 @@ limitation:
 Augment LLM with our private Data:
 ===================================
 
-Below are paradigms to insert data in to LLM from private data
+Below are paradigms to insert data in to LLM from private data to
+sync with current data.
 
   Paradigms to insert Knowledge into LLM:
   =======================================

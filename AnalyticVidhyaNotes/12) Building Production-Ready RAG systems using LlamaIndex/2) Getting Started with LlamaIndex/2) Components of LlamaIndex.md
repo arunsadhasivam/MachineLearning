@@ -9,3 +9,4 @@ Components of LlamaIndex:
 3)**Responsive Synthesis** - Synthesis stage top k documents and user query are passed on the llm to
    generate appropriate response.
    
+![image](https://github.com/user-attachments/assets/97a9ab0a-90c8-4853-ab69-aa3b2f6c435d)

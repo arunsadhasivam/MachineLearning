@@ -16,3 +16,14 @@ What is LlamaIndex:
 - beat any enterprise data like recruiting,sales, marketing we can leverage llamaindex to build llm
   application powered by RAG.
   
+LlamaIndex:
+===========
+
+1) Enables Data connector.
+2) supports Document operations
+3) Facilitates Data synthesis over heterogenous data.
+4) utilizes query routing.
+5) Enhances Document Embeddings.
+6) Offers Extensive Integrations.
+7) Suports OpenAI Api.
+

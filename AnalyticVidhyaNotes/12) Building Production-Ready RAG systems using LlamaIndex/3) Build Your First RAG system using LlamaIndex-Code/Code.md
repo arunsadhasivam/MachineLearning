@@ -47,7 +47,36 @@ to get text content of document.
 
 ![image](https://github.com/user-attachments/assets/f0a05367-143c-4190-810e-57273cdea410)
 
+  
+  Step 1.1-Embedding Model:
+  =======================
+  
+  you can use either large or small
+  
+  ![image](https://github.com/user-attachments/assets/50dbe63f-e134-4fe6-8916-9c96165d4582)
+  
+  Step1.2 - LLM
+  =============
+  
+  ![image](https://github.com/user-attachments/assets/a94574fe-9dc7-4112-b67f-8684f8e67e56)
 
-Step 2-Embedding Model:
-=======================
+Step2 - Indexing:
+==================
+
+gpt-4 or turbo
+
+![image](https://github.com/user-attachments/assets/646fa4c2-bf56-49a1-9bb0-5d39f4bf556a)
+
+Step3 -Retrieval:
+==================
+
+set index as retriever. 
+
+method **index.as_retriever()** converts **index** to **retriever** and **retriever() methods allows to query index**.
+
+
+![image](https://github.com/user-attachments/assets/81c7fe9d-9226-4f02-b805-fb0a359d5689)
+
+
+
 

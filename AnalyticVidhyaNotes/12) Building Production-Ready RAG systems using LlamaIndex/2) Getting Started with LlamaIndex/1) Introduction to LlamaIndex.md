@@ -27,3 +27,7 @@ LlamaIndex:
 6) Offers Extensive Integrations.
 7) Suports OpenAI Api.
 
+Llama Index vs Langchain:
+==========================
+
+![image](https://github.com/user-attachments/assets/8caeb56c-67f2-4384-883b-d729bc52a54e)

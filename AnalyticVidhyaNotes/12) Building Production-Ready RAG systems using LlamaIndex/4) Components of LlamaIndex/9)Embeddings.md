@@ -74,7 +74,7 @@ numerator - dotproduct of 2 vector/mod of ||a||.||b||
 
 **2)finding the odd one out!**
 
-    ![image](https://github.com/user-attachments/assets/69341692-72ea-4385-87af-3544bf144fb7)
+![image](https://github.com/user-attachments/assets/ae476224-c97a-421b-9e8e-63ac4a24a4b6)
 
  
 **3) Sentence similarity:**

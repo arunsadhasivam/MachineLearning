@@ -42,8 +42,13 @@ print content present in tag-p:
 </details>
 </p>
 
+
+
+
 <p>
-<details> 1.1.Simple File Node Parsers</details>  
+
+ <details> <summary>1.1.Simple File Node Parsers </summary>
+
 
 ![image](https://github.com/user-attachments/assets/2a992a5d-4b71-4b87-bbfd-c886a919ff30)
 

@@ -2,7 +2,7 @@ File Based Node Parser:
 =======================
 
 <p>
-<details> 1.HTML Node Parsers 
+<details> <summary> 1.HTML Node Parsers  </summary>
  
 HTML Node Parsers:
 ===================

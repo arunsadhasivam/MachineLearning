@@ -67,7 +67,7 @@ Installation:
 </details>
 
 
-<details><summary>1) Document Readers </summary>
+<details><summary>1) Chunking and tokenization </summary>
 <p>
   
   2)Chunking:

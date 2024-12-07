@@ -12,7 +12,9 @@ Installation:
 
 ![image](https://github.com/user-attachments/assets/2d56eda5-efca-4a9e-b588-a368d16cf7ec)
 
-<details><summary>1.LLM setup and first chain</summary>
+
+
+<details><summary>1) Document Readers </summary>
 <p>
   
   Option 1: Loading PDF:

@@ -1,6 +1,7 @@
 
 <p>
 <details> <summary> 1. Embeedings</summary>
+
 Embeddings:
 ===========
 
@@ -46,7 +47,7 @@ Definition:
 Interpreting Embeddings:
 =========================
 
-numerator - dotproduct of 2 vector/
+numerator - dotproduct of 2 vector/mod of ||a||.||b||
 
 1) cosine similarity range from 1 to -1
 2) 1=similarity
@@ -67,17 +68,21 @@ numerator - dotproduct of 2 vector/
 <p>
 <details> <summary> 4)Applications of  Embeddings</summary>
 
-1) find most similar words
+**1) find most similar words**
+ 
    ![image](https://github.com/user-attachments/assets/8d02f2af-77bf-4c01-9533-224367835624)
 
-2) finding the odd one out![image](https://github.com/user-attachments/assets/c55cac5d-4f91-47c4-90f5-a2ec21e0fc8d)
+**2)finding the odd one out!**
 
-3) Sentence similarity:
+[image](https://github.com/user-attachments/assets/c55cac5d-4f91-47c4-90f5-a2ec21e0fc8d)
+
+**3) Sentence similarity:**
     
    ![image](https://github.com/user-attachments/assets/aaafb357-2fc6-4c4a-8acb-492eded372cf)
-  As you can 2 sentence are similar in meaning has cosine similarity score < threshold.
 
-3) Document Clustering:
+As you can 2 sentence are similar in meaning has cosine similarity score < threshold.
+
+**3) Document Clustering:**
    k-means algorithm which works on cosine-similarity to group similar document.
    ![image](https://github.com/user-attachments/assets/43af15ea-60e1-41bc-895a-ac0423d5f1c2)
 
@@ -105,13 +110,13 @@ numerator - dotproduct of 2 vector/
 <p>
 <details> <summary>6)How to choose correct Embeeding.</summary>
 
-1) look for domain specific embeddings like medical , retail, hightech
-2) if we dont find go to the state-of-the-art embeddings.
-3) you can check the massive Text EmbeddingBenchMark(MTEB)
-
-   https://huggingface.co/blog/mteb
-   based on score you can choose the embeddings.
-4) Fine Tune Embeddings to improve performance of RAG System.
+  1)look for domain specific embeddings like medical , retail, hightech
+  2)if we dont find go to the state-of-the-art embeddings.
+  3)you can check the massive Text EmbeddingBenchMark(MTEB)
+  
+    [link](https://huggingface.co/blog/mteb)
+     based on score you can choose the embeddings.
+  4)Fine Tune Embeddings to improve performance of RAG System.
    
 
 

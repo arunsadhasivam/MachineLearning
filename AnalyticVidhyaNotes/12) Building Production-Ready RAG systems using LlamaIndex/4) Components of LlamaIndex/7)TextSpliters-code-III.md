@@ -85,6 +85,7 @@ printing first 10 nodes. every full stop is 1 sentence.
   ===================
 
   **dissimilarity** - if dissimilarity Exceeds Threshold or limit , then 2 chunks are different then remain separate.
+  
   **similarity**   - if dissimilarity Below Threshold or limit, then 2 chunks are same in terms of meaning and content
                  then we concatenate 2 chunks.This process ensure model processing efficiency.
                  After concatenate we see less chunks since silimar meaning is concatenated.

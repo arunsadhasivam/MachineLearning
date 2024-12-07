@@ -91,7 +91,49 @@ printing first 10 nodes. every full stop is 1 sentence.
                  After concatenate we see less chunks since silimar meaning is concatenated.
                  for this we need embedding model.
               
-  
+
+
+  ![image](https://github.com/user-attachments/assets/10c74220-3ce0-4a8f-bc7d-cfb489fab89a)
+
+
+NOTE:
+=====
+
+As you can see now considerably small nodes now compared to 757 earlier.
+
+
+![image](https://github.com/user-attachments/assets/6c383f97-271d-4b9a-9a2d-5d9108334b13)
+
+see some nodes are concatenated.
+![image](https://github.com/user-attachments/assets/a5943857-8c3b-4a50-b200-3776853ef87f)
+
+</details>
+</p>
+
+
+<p>
+<details> <summary>3. Token Text Splitter</summary>
+
+you can specify custom spliter earlier it uses white space.
+
+
+**backup_separator** - if the sentence or chunks does not have full stop and exceeds the chunk size
+there  then bacup_separator comes in to picture to separate the chunks.
+
+![image](https://github.com/user-attachments/assets/a98618a8-2c43-40d1-999b-1a8453b2ed56)
+
+![image](https://github.com/user-attachments/assets/fff91572-a372-4809-8e6b-ccdaeeb2db11)
+![image](https://github.com/user-attachments/assets/f3bd5aea-6958-45f9-8e59-4fbf97383175)
+![image](https://github.com/user-attachments/assets/1bafdf4a-28f1-4f96-9c5d-039eaf17e802)
+
+check the token size in openAI tokenizer- 
+
+https://platform.openai.com/tokenizer
+
+![image](https://github.com/user-attachments/assets/b91ca0e0-0a16-4b5d-9e62-a31b4e6b5f6e)
+
+1052  additional token because of \n - additional token are there.
+
 
 </details>
 </p>

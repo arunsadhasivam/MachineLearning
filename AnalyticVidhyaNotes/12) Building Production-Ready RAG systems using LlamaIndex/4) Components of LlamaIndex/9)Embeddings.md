@@ -117,7 +117,7 @@ As you can 2 sentence are similar in meaning has cosine similarity score < thres
 
 3) you can check the massive Text EmbeddingBenchMark(MTEB)
 
-      based on score you can choose the embeddings.
+   based on score you can choose the embeddings.
    [link](https://huggingface.co/blog/mteb)
        
        

@@ -113,7 +113,7 @@ As you can 2 sentence are similar in meaning has cosine similarity score < thres
 
 1) look for domain specific embeddings like medical , retail, hightech
 
-2 )if we dont find go to the state-of-the-art embeddings.
+2) if we dont find go to the state-of-the-art embeddings.
 
 3) you can check the massive Text EmbeddingBenchMark(MTEB)
 

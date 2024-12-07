@@ -116,8 +116,7 @@ As you can 2 sentence are similar in meaning has cosine similarity score < thres
 2 )if we dont find go to the state-of-the-art embeddings.
 
 3) you can check the massive Text EmbeddingBenchMark(MTEB)
-
-  [link](https://huggingface.co/blog/mteb)
+   [link](https://huggingface.co/blog/mteb)
    based on score you can choose the embeddings.
    
 4) Fine Tune Embeddings to improve performance of RAG System.

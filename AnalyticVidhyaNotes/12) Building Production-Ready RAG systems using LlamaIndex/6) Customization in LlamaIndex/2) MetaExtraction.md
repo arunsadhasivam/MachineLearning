@@ -18,8 +18,8 @@
 
 ![image](https://github.com/user-attachments/assets/7eab0f3f-f6fe-4f3e-8c24-69c86bb1173e)
 
-1)summary Extraction
-=============================
+1)summary  and Question Answer Extraction:
+============================================
 
 - create summary and add to the metadata
 
@@ -66,6 +66,47 @@ section_summary - current node summary.
 
 2)QuestionAnsweredExtraction
 =============================
+
+![image](https://github.com/user-attachments/assets/332129db-7a89-4e47-9b22-9925145fe8be)
+
+summary
+
+![image](https://github.com/user-attachments/assets/105ebee5-27d3-47dc-9cd3-b463178c7174)
+
+
+
+3)Visualizing the data :
+=============================
+
+![image](https://github.com/user-attachments/assets/6c209e0b-cb66-4f25-a1bc-d43f6df58c3b)
+
+visualizing sample data:
+
+![image](https://github.com/user-attachments/assets/7fba8375-4a43-40a3-bc86-7ebe67815c42)
+
+
+![image](https://github.com/user-attachments/assets/59b609aa-d7b2-46eb-8ae2-f9bf3bdfda41)
+
+</details></p>
+
+
+
+
+<p><details><summary>2.RAG Query Engine to Ask questions </summary>
+
+  
+2.RAG Query Engine
+==================
+
+
+set index as query Engine to ask query to RAG System.
+
+![image](https://github.com/user-attachments/assets/6cbf4034-ed5e-4b7f-a59f-446f8bb91141)
+
+
+response for LLM
+
+![image](https://github.com/user-attachments/assets/839a196d-4ef0-45f4-a786-facb51427b5d)
 
 
 

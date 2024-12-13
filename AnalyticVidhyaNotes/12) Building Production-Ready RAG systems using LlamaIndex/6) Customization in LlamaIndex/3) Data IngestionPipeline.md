@@ -86,8 +86,54 @@ entire document will have 3 transformations
 - e.g if you have already generated embeddings, if you run ingestion pipeline so embeddings
   wont generate again.
 
-  
-  
+  ![image](https://github.com/user-attachments/assets/a41a784c-11af-4e15-819e-90fb2817d032)
 
+  added extra parameter cache.
+
+  next time run for same document ,it run instantly
+  ==================================================
+
+
+  ![image](https://github.com/user-attachments/assets/672e1afa-e869-49a8-ab79-b9a601aa727c)
+
+  e.g sentenceSplitter , TitleExtractor already completed and store in cache.
+  1) Sentence Splitter  - already executed , so run from cache.
+  2) TitleExtractor - already executed , so run from cache.
+  3) openAIEmbeddings - only run , output of previous 2 steps  are directly used to create embeddings.
+
+
+Again persist cache with embeddings also to persist
+
+![image](https://github.com/user-attachments/assets/b67a04fe-91c4-4ea7-9ac6-3d1e74cf5855)
+
+
+if again run none of the 3 steps will not executed since all 3 already executed.
+
+it just loads and map to pipeline.
+
+
+</details> 
+</p>
+
+
+<p><details><summary>3. Custom Transformation</summary>
+
+Remove special characters
+
+![image](https://github.com/user-attachments/assets/23405ca9-d6a4-41a0-bccd-e7b6bb454db4)
+
+</details> 
+</p>
+
+ 
+<p><details><summary>4. Tokenization and token counting for Prompting, Embedding and Response Generation</summary>
+
+![image](https://github.com/user-attachments/assets/11b5c5d2-a735-475f-84aa-c69d5b2a6242)
+
+callback manager handle callback for llamaindex
+![image](https://github.com/user-attachments/assets/67c5833f-6f61-4772-95b0-87c6bea2adc4)
+
+
+PromptToken - 1893 is high that include context from nodes 
 </details> 
 </p>

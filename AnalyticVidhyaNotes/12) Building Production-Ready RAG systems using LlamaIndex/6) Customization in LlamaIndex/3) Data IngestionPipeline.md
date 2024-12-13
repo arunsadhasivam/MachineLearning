@@ -96,10 +96,7 @@ entire document will have 3 transformations
 
   ![image](https://github.com/user-attachments/assets/672e1afa-e869-49a8-ab79-b9a601aa727c)
 
-  e.g sentenceSplitter , TitleExtractor already completed and store in cache.
-  1) Sentence Splitter  - already executed , so run from cache.
-  2) TitleExtractor - already executed , so run from cache.
-  3) openAIEmbeddings - only run , output of previous 2 steps  are directly used to create embeddings.
+ 
 
 
 Again persist cache with embeddings also to persist

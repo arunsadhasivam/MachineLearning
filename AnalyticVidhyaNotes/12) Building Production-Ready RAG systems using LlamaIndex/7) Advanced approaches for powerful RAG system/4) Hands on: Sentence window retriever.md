@@ -4,6 +4,7 @@ Sentence window Retriever:
 
 - sentence Window Retriever using LlamaIndex
 
+<p><details><summary>1.Sentence window Retriever</summary>
 
   Step 1:setup Env:
   =================
@@ -75,8 +76,45 @@ Step 6:Metadata replacement PostProcessor:
 
     below is the final response
     
-   ![image](https://github.com/user-attachments/assets/1a4cfde7-e46c-4be0-8ef3-e66891777482)
+    ![image](https://github.com/user-attachments/assets/9b3987ad-171b-4682-a0d3-f35d6e3bdf2b)
+    
+</details></p>
 
+
+<p><details><summary>2.Base Retriever</summary>
 
 Step 7:Base Retriever:
 =======================
+
+   ![image](https://github.com/user-attachments/assets/29cc4317-cfa7-46fe-82ef-1330c6733434)
+
+
+ build index - takes 20-30 min
+
+  ![image](https://github.com/user-attachments/assets/d8f4480a-f3e8-4c08-be5a-ba45c99dab7f)
+
+setting up baseindex as query Engine
+
+  ![image](https://github.com/user-attachments/assets/6f9c6b62-4382-4e10-b7e9-8164d2ce4f9e)
+
+- As you can see result is no way close to actual value . dollar value is no way close $1,484 million
+- numbers can confuse llm.
+
+bump the top-k nodes to see whether it improves the result.
+
+  ![image](https://github.com/user-attachments/assets/a65fa9c2-0042-4281-a460-61496e774ffb)
+
+Above is also not correct. although clearly mentioned in the text since numbers present in text
+is more.
+
+Step 8:To check the result retrieved from SentencewindowRetriever is correct:
+===================================================================================
+
+
+confirm with chatgpt asking it to reproduce the text where it mentioned in document.
+
+![image](https://github.com/user-attachments/assets/9c8cc182-315e-4b37-9fc8-accd19eb2a80)
+
+![image](https://github.com/user-attachments/assets/a83c2069-988d-466e-89d0-0a0efafc1936)
+
+</details></p>

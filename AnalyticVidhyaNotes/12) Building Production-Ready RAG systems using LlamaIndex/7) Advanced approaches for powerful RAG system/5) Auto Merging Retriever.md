@@ -65,5 +65,5 @@ SNO   | default Retriever   without Automerge             | AutoMerge Retriever
      |                                                   | and return parent nodes rather than smaller leaf nodes.
      |                                                   | and with merging of all small leaf nodes , we opt to
      |                                                   | return the parent node size of 512 token instead of 
-     |                                                   | individual leaf nodes.  
+     |      NA                                           | individual leaf nodes.  
  

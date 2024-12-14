@@ -12,8 +12,6 @@ Auto Merging Retriever
 Definition:
 ===========
 
-  AutoMerging Retriever combines the related leaf nodes into larger group based on a threshold.
-  This helps create a bigger context for  better information synthesis.
 
 
   ![image](https://github.com/user-attachments/assets/d7a5b630-2f92-4d06-b060-97c554b2886a)

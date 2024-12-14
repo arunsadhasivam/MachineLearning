@@ -117,4 +117,14 @@ confirm with chatgpt asking it to reproduce the text where it mentioned in docum
 
 ![image](https://github.com/user-attachments/assets/a83c2069-988d-466e-89d0-0a0efafc1936)
 
+
+
+ 
 </details></p>
+
+
+Summary:
+========
+
+- sentence window Retriever is correct and accurate , whereas base retriever struggling with
+  accuracy.

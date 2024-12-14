@@ -56,14 +56,14 @@ threshold 0.5
   
 
       
-      SNO   | default Retriever   without Automerge             | AutoMerge Retriever
-      ------|---------------------------------------------------|---------------------------------------------------
-       1    |   first retrieve top k nodes directly             | here 3 such child nodes, third step if no of
-            |   uses leafnodes and directly use leafnodes for   | relevant child nodes linking to the parent 
-            |   response synthesis                              | document exceeds certain threshold(0.5) then
-            |                                                   | we merge all leaf nodes present in parent node
-            |                                                   | and return parent nodes rather than smaller leaf nodes.
-            |                                                   | and with merging of all small leaf nodes , we opt to
-            |                                                   | return the parent node size of 512 token instead of 
-            |                                                   | individual leaf nodes.  
-      ------|---------------------------------------------------|---------------------------------------------------------------    
+    SNO   | default Retriever   without Automerge             | AutoMerge Retriever
+    ------|---------------------------------------------------|---------------------------------------------------
+     1    |   first retrieve top k nodes directly             | here 3 such child nodes, third step if no of
+          |   uses leafnodes and directly use leafnodes for   | relevant child nodes linking to the parent 
+          |   response synthesis                              | document exceeds certain threshold(0.5) then
+          |                                                   | we merge all leaf nodes present in parent node
+          |                                                   | and return parent nodes rather than smaller leaf nodes.
+          |                                                   | and with merging of all small leaf nodes , we opt to
+          |                                                   | return the parent node size of 512 token instead of 
+          |                                                   | individual leaf nodes.  
+    ------|---------------------------------------------------|----------------------------------------------------------    

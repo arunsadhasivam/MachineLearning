@@ -66,7 +66,6 @@ How it works:
       
   ![image](https://github.com/user-attachments/assets/c5e0d11b-f929-47da-8750-038f40ac45c5)
 
-
   ![image](https://github.com/user-attachments/assets/478c5516-0009-4027-bfb4-cc599df0141b)
 
   ![image](https://github.com/user-attachments/assets/4203fdf2-ea1e-4195-a89d-b0c2e8f91ad1)
@@ -82,8 +81,8 @@ Use Case:
 - this node is stored along with the other nodes  in vector store.
 - during query time, if an index node is fetched then the underlying query engine
   retriever will be queyr.
-- this manner recursive retriever retrieves the relevant information from
-  not only the text chunks , but also effective from the tables with in the
+- this manner **recursive retriever retrieves the relevant information from
+  not only the text chunks** , but also effective from the tables with in the
   document.
 
 

@@ -39,8 +39,8 @@ Difference:
 SNO   | Normal Retriever                               |  Recursive Retriever
 ------|------------------------------------------------|---------------------------------------------
   1   | single retriever for whole document            |  Recursive Retriever maintains document 
-      |                                                |  Hierarchial structures preserving the hierarchial
-      |                                                |  structure
+                                                       |  Hierarchial structures preserving the hierarchial
+                                                       |  structure
 
 
 

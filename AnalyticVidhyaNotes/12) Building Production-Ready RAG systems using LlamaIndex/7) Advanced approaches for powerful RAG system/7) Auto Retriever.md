@@ -31,7 +31,7 @@ How it works:
 
 - here the nodes are node1,node2,node5. in the next stage based on the similarity of the query
   with the node information , the top-k similar nodes are retrieved.
-- top-k is 2 node1,node2 is retrieved.
+- e.g top-k is 2 , here node1,node2 is retrieved.
 
 
 

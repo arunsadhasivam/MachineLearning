@@ -40,16 +40,55 @@ Difference:
     ------|------------------------------------------------|---------------------------------------------
       1   | single retriever for whole document            |  Recursive Retriever maintains document 
           |                                                |  Hierarchial structures preserving the hierarchial
-          |                                                |  structure
+          |                                                |  structure preserving relationship between chapters.
 
 
 
+How it works:
+==============
+
+  - we can configure different retriever independently for each chapter present in the book.
+  - Each retriever fetches corresponding relevant nodes of the chapter in the book, post that
+    we create a special node called index nodes that stores the **summary of the each chapter
+    and links it to the coresponding retriever of the chapter**.This index node will helps us to
+    redirect to the corresponding retrievers depending on the user query.
+  - Finally we create a recursive retriever that execute the entire pipeline.
+  - At the query time, when the user query pertains to chapter 3, the corresponding
+    index ndoe is retrieved. underlying retriever is the query and the relevant nodes
+    are extracted accordingly.
+  - This illustrate how the recursive retriever parses nodes recursively based on the
+    user query. By now , you can must be clear the recursive retriever is suitable
+    when data has hierarchial structure like file structure or nested document
+    collections.
+   - It allows you to retrieve relevant information at different levels of hierarchy,
+     make  it usefull for scenario like knowledge base retrieval, document management
+     systems or any data with nested organization.
       
   ![image](https://github.com/user-attachments/assets/c5e0d11b-f929-47da-8750-038f40ac45c5)
 
-  
-How it works:
-=============
+
+  ![image](https://github.com/user-attachments/assets/478c5516-0009-4027-bfb4-cc599df0141b)
+
+  ![image](https://github.com/user-attachments/assets/4203fdf2-ea1e-4195-a89d-b0c2e8f91ad1)
+
+Use Case:
+=========
+
+- in this example, we walkthrough the wikipedia article about the millionare, which
+  contains both text and variety of the  **embedded structured tables**.
+- text part stored in the usual text node - we can use panda query engine over
+  each of the table and then represent each table by a index node which stores
+  a link to query engine.
+- this node is stored along with the other nodes  in vector store.
+- during query time, if an index node is fetched then the underlying query engine
+  retriever will be queyr.
+- this manner recursive retriever retrieves the relevant information from
+  not only the text chunks , but also effective from the tables with in the
+  document.
+
+
+![image](https://github.com/user-attachments/assets/44706ad9-d170-4bda-a73f-096edf920294)
+
 
 
   

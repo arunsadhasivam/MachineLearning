@@ -60,9 +60,10 @@ DataSet Collection:
 </details></p>
 
 
-<p><details><summary>Remember to consider:</summary>
+ 
+   
 Remember to consider:
-======================
+=======================
 
 1.quality:
 =========
@@ -91,7 +92,7 @@ Remember to consider:
      - however llm generated datas has certain patterns which can hinder model training.
 
 
-</details></p>
+ 
 
 
     

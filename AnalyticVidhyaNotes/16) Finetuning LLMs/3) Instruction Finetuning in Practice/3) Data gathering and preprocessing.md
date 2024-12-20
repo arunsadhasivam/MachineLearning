@@ -54,7 +54,7 @@ DataSet Collection:
 
 ![image](https://github.com/user-attachments/assets/f7df411f-9f4e-4eb0-a2e3-1d9176abfd12)
 
-          - transcribed customer support conversations, meetings, podcasts
+     - transcribed customer support conversations, meetings, podcasts
 
 
 </details></p>
@@ -74,9 +74,12 @@ Remember to consider:
 
 2.quanity:
 ==========
+
     - more the quanity but quality is better.
+    
 3.Diversity:
 ============
+
     - diverse tasks enable generalization and serendipity.
     - for e.g in one of hands of exercise " synthetic datasets of short instructions and output" because of which
       the model often generates short response. due to lack of diversity of long response the model is limited in 
@@ -99,14 +102,12 @@ Remember to consider:
 3)Data Collection pipeline:
 ===========================
 
-    - first step is to collect the instruction dataset in the form of (instruction,input and output)
-      tuples.
-    - next step is the format of samples by adding tokens to delimit whether the following text is
-      instruction, whether it is user input or assistance response.
-    - then these different parts which are delimited by special tokens to be concatenated to get final response.
-    - final step is to create train/test split - this enables the evaluation of the model on test split to
-      measure its performance.
-
+   - First step is to Collect instruction in the form of (instruction, input  and output) tuples
+   - Next step is to format the samples by adding tokens to delimit whether following text is a instruction or
+     whether it is user input or assistance response.
+   - Then these different parts which are delimited by special tokens are concatenated to get the final response.
+   - Then the final steps is to create test/train split - to measure the model performance.
+   
       ![image](https://github.com/user-attachments/assets/ea9b9be1-7444-4dae-b6bf-de2cfeffb9fa)
 
     

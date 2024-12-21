@@ -13,9 +13,10 @@ Limitations of Full Finetuning:
 
 ![image](https://github.com/user-attachments/assets/39d53d53-c193-4270-b472-35ddf8668658)
 
+NOTE : consumer hardware ( usually has 8gb to 24gb gpu)
 
-   What Makes model large?:
-   ========================
+What Makes model large?:
+========================
 
 ![image](https://github.com/user-attachments/assets/c2d87884-2115-436c-9c23-2f842fc6a5a0)
 

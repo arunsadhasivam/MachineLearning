@@ -11,7 +11,7 @@ kaggle -https://www.kaggle.com/
 runpod.io - https://www.runpod.io/
 
 Geometry visualization
-=======================
+======================
 
 https://www.geogebra.org/calculator
 

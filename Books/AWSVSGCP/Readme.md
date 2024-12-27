@@ -1,1 +1,0 @@
-https://www.projectpro.io/article/aws-vs-gcp-which-one-to-choose/477

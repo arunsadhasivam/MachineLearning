@@ -8,14 +8,14 @@ Fully Sharded Data Parellelism/ZeRO 3:
     - in this lesson, we look at the sharded data paralleism.
 
 
-<p><details><summary>Recap of Model and pipeline Paralleism:</summary>
+
     
 Recap of Model and pipeline Paralleism:
 =========================================
+<p><details><summary>1.Model Paralleism:</summary>
 
-
-1.Model pipeline:
-==================
+1.Model Paralleism:
+======================
 
     - Recap: in dataparalleism , each gpu contains the entire model replica.
       whereas the data is shared across the gpu . on each gpu the forward pass
@@ -27,6 +27,11 @@ Recap of Model and pipeline Paralleism:
 
 ![image](https://github.com/user-attachments/assets/a286bd02-130a-4a1c-9359-bf2a1ac709ce)
     
+</details></p>
+
+
+
+<p><details><summary>1.Pipeline Paralleism:</summary>
 
 2.Pipeline Paralleism:
 ======================
@@ -41,6 +46,12 @@ Recap of Model and pipeline Paralleism:
        - can we have paralleism techniques that can reduce the memory requirements and quite also
          reduce the under utilization thats where FSDP(Full sharded data paralleism) comes in 
 
+</details></p>
+
+
+
+<p><details><summary>1.Fully Sharded Data Pipelism:</summary>
+
 3.Fully Sharded Data Pipelism:
 ==============================
 
@@ -48,27 +59,43 @@ Recap of Model and pipeline Paralleism:
 
 How fsdp works:
 ===================
-  -  main idea is to shard the optimizer states also knows as zero redundancy state to
+  -  main idea is to shard the optimizer states also knows as zero redundancy state-i to
      shard the gardients which is knows as zero-stage-ii and the model parameters which is
      known as zero-stage-iii across the data parallel workers i.e across gpu.
   - during the forward pass, each gpu gets the sub-batch of data. 
+
+
+Outline:
+=======
+
+    - shard the optimizer state (zero redundancy ste-i)
+    - Shard Gradient and optimizer (Zero stage ii)
+    - shared parameters ,gradients and optimizer (zero stage iii)
+
 
 ![image](https://github.com/user-attachments/assets/bb691f01-76ae-4bea-ba6a-163b50442f30)
 
 
 
-  - each gpu first perform the all-gather operation to gather the weights that are required to perform the
-    forward pass and then the forward pass for the sharded model happens. this happens for all the 
+ALL-Gather Operation:
+======================
+
+  - each gpu first perform the **all-gather operation** to gather the **weights** that are required to perform the
+    forward pass and then the forward pass for the **sharded model happens**. this happens for all the 
     sharded layers.
   - post the forward pass , the loss is calcualted .
     
   ![image](https://github.com/user-attachments/assets/4fc4ad7b-c358-4a2d-83f0-faa47d40f127)
 
  
+  ![image](https://github.com/user-attachments/assets/3700a4a2-2cc6-4ac1-8d2e-423eeba273fa)
+
+Reduce Scatter Operation:
+==========================
 
 
-  - during the backward pass again each gpu performs an all-gather operation to gather the required weights from
-    the local model shards. post then backward pass happens to get the local gradients.
+  - during the backward pass again **each gpu performs an all-gather operation** to gather the required weights from
+    the local model shards. post then backward pass happens to get the **local gradients**.
   - After getting the local gradient, a **reduce scatter operation** is performed i.e the local gradients are
     averaged and then sharded across the gpu.
   - so that each gpu have the gradient to update the weights of the local shards. thas how fsdp is able to

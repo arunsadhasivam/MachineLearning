@@ -64,8 +64,6 @@ How fsdp works:
     
   ![image](https://github.com/user-attachments/assets/4fc4ad7b-c358-4a2d-83f0-faa47d40f127)
 
-
-
   ![image](https://github.com/user-attachments/assets/1e32846c-baf5-420d-891d-7c58e74610f5)
 
 

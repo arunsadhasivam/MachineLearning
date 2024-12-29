@@ -9,6 +9,7 @@ Fully Sharded Data Parellelism/ZeRO 3:
 
 
 <p><details><summary>Recap of Model and pipeline Paralleism:</summary>
+    
 Recap of Model and pipeline Paralleism:
 =========================================
 

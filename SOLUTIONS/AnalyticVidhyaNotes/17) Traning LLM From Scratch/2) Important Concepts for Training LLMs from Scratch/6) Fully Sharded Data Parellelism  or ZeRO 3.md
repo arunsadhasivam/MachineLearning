@@ -62,6 +62,7 @@ How fsdp works:
   - post the forward pass , the loss is calcualted .
     
   ![image](https://github.com/user-attachments/assets/4fc4ad7b-c358-4a2d-83f0-faa47d40f127)
+![image](https://github.com/user-attachments/assets/7fcc805f-4e27-49d7-a931-3e504ae693d6)
 
   - during the backward pass again each gpu performs an all-gather operation to gather the required weights from
     the local model shards. post then backward pass happens to get the local gradients.

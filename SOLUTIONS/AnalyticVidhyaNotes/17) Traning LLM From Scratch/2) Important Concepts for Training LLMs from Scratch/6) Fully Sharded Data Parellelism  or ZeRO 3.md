@@ -65,7 +65,9 @@ How fsdp works:
   ![image](https://github.com/user-attachments/assets/4fc4ad7b-c358-4a2d-83f0-faa47d40f127)
 
 
-![image](https://github.com/user-attachments/assets/6ac40e04-aa30-47f0-a197-4147fe9f7a26)
+
+  ![image](https://github.com/user-attachments/assets/1e32846c-baf5-420d-891d-7c58e74610f5)
+
 
 
   - during the backward pass again each gpu performs an all-gather operation to gather the required weights from

@@ -15,6 +15,11 @@ Geometry visualization
 
 https://www.geogebra.org/calculator
 
+martix:
+========
+
+https://youtu.be/VXG6WzS-Xb4?si=71PVDZZMiNFsVxAr
+
 Generative AI 
 ==============
 

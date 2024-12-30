@@ -33,6 +33,5 @@
     is combined with tensor paralleism i.e model paralleism along with data paralleism i.e zero-data Parallel.
     by this way we can leverage the advantages of different paralleism techniques. this helps to accelerate
     the training process and train the model efficiently at scale.
-   - most of the llm likes falcon , llama 70b uses 3D paralleism to accelerate the training process of these
-     llm.
-   - 3D is mostly **prefered when you are training very large llm**   
+ - most of the llm like falcon 180b, llama 80B uses 3D paralleism to accelerate the training process of these llm.
+ - mostly 3D paralleism preferred for **very large language models**  

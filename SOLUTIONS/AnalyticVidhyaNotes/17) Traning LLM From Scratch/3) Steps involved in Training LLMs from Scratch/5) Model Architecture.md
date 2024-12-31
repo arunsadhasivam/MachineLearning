@@ -149,11 +149,15 @@ Summary:
    convergence.
 
 
-![image](https://github.com/user-attachments/assets/5fc3439a-1faf-4615-baeb-d5432220ecc5)
+![image](https://github.com/user-attachments/assets/ac4ceda2-6d3f-4af8-919c-812548a9702b)
 
   - Modal checkpointing helps in resume the training process by restoring the parameters,
     optimizers state, learning rate scheduler state and so on.
-  - post that we train our llm 
+  - post that we train our llm on the training data by using parallel and distributed computing strategies.
+  - upon training of llm , it is crucial to preserve and save our model training environment and
+    retain the final checkpoint.
+  - this ensure the ability to redo or replicate anything in future as the training state is effectively
+    retained.
 
   
 

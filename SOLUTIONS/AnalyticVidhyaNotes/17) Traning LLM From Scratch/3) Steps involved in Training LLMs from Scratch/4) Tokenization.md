@@ -147,7 +147,7 @@ let see how to tackle the above cons.
 
 
 
-<p><details><summary>2)Subword tokenization:</summary>
+<p><details><summary>3)Subword tokenization:</summary>
   
 3)Sub word tokenization:
 ========================

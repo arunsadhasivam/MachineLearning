@@ -48,7 +48,7 @@ common steps involved in data preprocessing:
 
 </details></p>
 
-  <p><details><summary>Primary reason for doing data-duplication</summary>
+  <p><details><summary>Methods of data-duplication:</summary>
     
   Methods of data-duplication:
   ============================

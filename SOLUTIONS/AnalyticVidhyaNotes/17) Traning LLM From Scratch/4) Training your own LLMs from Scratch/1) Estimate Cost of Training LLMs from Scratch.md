@@ -98,7 +98,7 @@ Forumula:
 Summary:
 ========
 
-![image](https://github.com/user-attachments/assets/fc7c0c81-0057-42fc-87df-c4f02c37932d)
+![image](https://github.com/user-attachments/assets/34a59f47-718b-4880-abdd-b2ac45e97f19)
 
 
  - cost of llm is (computation cost /MFU) * hardware cost.

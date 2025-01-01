@@ -93,6 +93,8 @@ Forumula:
  - Total cost is cost : 1.55e6* ($1.8/hr) = $3Million dollars to train from cost.
  - thats why to train a llm from scratch it take 3Million .
 
+![image](https://github.com/user-attachments/assets/edc8b905-f598-4d10-831a-3b40d9ae103b)
+
 Summary:
 ========
 

@@ -15,6 +15,10 @@ Step 1: dataset Curation and preprocessing:
       - repository read access above
 
 
+
+Step 2 : code:
+==============
+
 Full code:
 ==========
 
@@ -137,3 +141,13 @@ NOTE:
 ![image](https://github.com/user-attachments/assets/1e549c61-9a64-4190-a717-3bd3c4fcf9d2)
 
    
+![image](https://github.com/user-attachments/assets/119b8556-6de6-4b92-aed8-e408ec9fbddd)
+
+Step 3: push to hugging face hub:
+=================================
+![image](https://github.com/user-attachments/assets/d8887462-4c01-41ca-96d3-00875cc03709)
+
+- read it from **hf_stack** metadata folder and create pandadataframe and write to **hug_stack** 
+**final step is to push to the hugging face hub so that anyone can use it.**
+
+![image](https://github.com/user-attachments/assets/e23bf8cd-2f24-442c-9724-cfba364d5353)

@@ -148,7 +148,12 @@ NOTE:
   - we also looked at the loss plot.
   - in terms of evaluation , we wont carry out any evaluations or qualitative evaluations
     because training a 7b parameter model form scratch requires atleast 1 trillion tokens.
+
+why we dont do evaluation :
+==============================
+
   - if we just use training loss and compute loss and compute it . we see that we need
     atleast gather and collect , which we dont have. we only train using only 110 million tokenss
-    which is 10 power 4 less.
-    ![image](https://github.com/user-attachments/assets/284af805-99ce-4ea9-8c45-9c7b175f0704)
+    which is 10 power 4 less
+    
+![image](https://github.com/user-attachments/assets/78fcbfe1-da67-4abc-ae18-4e4ffa5cf606)

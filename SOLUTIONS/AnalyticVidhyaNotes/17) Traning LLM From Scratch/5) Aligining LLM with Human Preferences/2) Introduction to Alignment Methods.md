@@ -23,13 +23,13 @@ Align the LLM in the direction of human preference.
 
 - **Main idea is to align the model to the human values to be helpful, honest,harmful.**
   
-  Different types of Alignment methods:
+Different types of Alignment methods:
 
-  1) Reinforcement Learning from human feedback(RLHF)
-  2) Direct Preference Optimization (DPO)
-  3) Reinforced self Training (REST)
-  4) identity Preference Optimization(IPO)
-  5) Kahneman-Tversky Optimization(KTO)
+1) Reinforcement Learning from human feedback(RLHF)
+2) Direct Preference Optimization (DPO)
+3) Reinforced self Training (REST)
+4) identity Preference Optimization(IPO)
+5) Kahneman-Tversky Optimization(KTO)
 ![image](https://github.com/user-attachments/assets/053ccb18-beca-47d7-a39c-c089fb07e5ac)
 
  

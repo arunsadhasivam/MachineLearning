@@ -26,6 +26,13 @@ Generative AI
 https://www.cloudskillsboost.google/journeys/118
 
 
+1) prompt Engineering
+2) framework langchain framework
+3) Rag architecture , fine tuning
+4) agent
+5) LLM ops
+
+
 Machine Learning Engineer Certification:
 ========================================
 

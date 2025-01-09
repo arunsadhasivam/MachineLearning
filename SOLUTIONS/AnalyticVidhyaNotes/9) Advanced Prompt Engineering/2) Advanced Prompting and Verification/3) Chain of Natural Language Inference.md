@@ -93,3 +93,4 @@ Disadvantages:
   - may miss hallunications mainly deducting  lack of grounding and effectivenesss.
   - effectiveness is dependent on the language model accuracy, which is not foolproof.
   - and post-processing rather than preventing hallunications of the source.
+  - and it is less effective for brief or fact sparse response due to the segmentations delays.

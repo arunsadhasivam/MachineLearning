@@ -89,3 +89,7 @@ Disadvantages:
 ===============
 
 ![image](https://github.com/user-attachments/assets/9529981b-6d07-477e-b3e0-20f8528a17ad)
+
+  - may miss hallunications mainly deducting  lack of grounding and effectivenesss.
+  - effectiveness is dependent on the language model accuracy, which is not foolproof.
+  - and post-processing rather than preventing hallunications of the source.

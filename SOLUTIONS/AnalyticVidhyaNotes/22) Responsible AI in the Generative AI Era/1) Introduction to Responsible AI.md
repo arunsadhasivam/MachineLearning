@@ -65,10 +65,8 @@ Responsive genAI practices:
   - Responsible AI is not just after thought, it is moral and ethical  and imperative.
 ![image](https://github.com/user-attachments/assets/e6e9fb93-a143-4a33-b334-d2ec109f5ec4)
 
-  - As we navigate the AI driven world, it is clear that there are moral principles should be compass guiding us
-    toward the future where AI enhances the life of ours without comprising our values. 
-
-
+  - As we navigate this transformative journey, our commitment to responsible AI practices will determine to
+    extent we can maximize the potential,while minimizing the risk.
 
     
     

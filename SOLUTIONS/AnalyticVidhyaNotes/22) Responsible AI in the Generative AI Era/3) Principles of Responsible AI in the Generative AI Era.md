@@ -113,12 +113,12 @@ Summary:
 ========
 ![image](https://github.com/user-attachments/assets/93d85f15-aa33-4fc0-be53-77ea56c64379)
 
-    - responsive ai practices are indispensible in era of genAI.
-    - fairness, transparency, accountability, robustness & stability, privacy, and security form the
-      pillars upon which ethical genAI systems to be build.
-    - it is our collective responsibilty to ensure that AI continues to advance that it does so
-      in a manner that not only enhances  our lifes but also respect our values and safeguards of future.
-    - by adhering to this principle we can navigate the transformative potential of genai while guarding 
-      against negative implications.
-    - Making most of the incredible technological evolution.
+ - responsive ai practices are indispensible in era of genAI.
+ - fairness, transparency, accountability, robustness & stability, privacy, and security form the
+   pillars upon which ethical genAI systems to be build.
+ - it is our collective responsibilty to ensure that AI continues to advance that it does so
+   in a manner that not only enhances  our lifes but also respect our values and safeguards of future.
+ - by adhering to this principle we can navigate the transformative potential of genai while guarding 
+   against negative implications.
+ - Making most of the incredible technological evolution.
     

@@ -120,5 +120,5 @@ Summary:
       in a manner that not only enhances  our lifes but also respect our values and safeguards of future.
     - by adhering to this principle we can navigate the transformative potential of genai while guarding 
       against negative implications.
-    - making the most of the technological evolutions.
+    - Making most of the incredible technological evolution.
     

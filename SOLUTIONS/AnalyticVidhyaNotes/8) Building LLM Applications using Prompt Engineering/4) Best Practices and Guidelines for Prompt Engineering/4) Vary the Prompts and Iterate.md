@@ -9,5 +9,7 @@ Vary the Prompts and Iterate:
 
 ![image](https://github.com/user-attachments/assets/a54bec5f-34b7-40d9-b5f5-e8bc40b8754c)
 
-  - we can add very explicit statement saying 
+  - for e.g adding explicit statement " please avoid informal language"
+  - by doing iterations , we can make output more sharper.
+  - 
 

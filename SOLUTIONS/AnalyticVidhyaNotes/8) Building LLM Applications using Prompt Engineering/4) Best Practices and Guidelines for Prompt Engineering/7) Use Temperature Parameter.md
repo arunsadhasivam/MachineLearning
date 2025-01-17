@@ -41,3 +41,5 @@ Summary:
   4) use delimiter to make sure the model can understand the input.
   5) ask the outpupt in the structure output.
   6) as required, set the temperature to 0(same answer for each run) or 1 (non-deterministic), 
+
+  - these are some of ways in which you can actually make your prompt a lot better and get better output from these llm.

@@ -33,7 +33,7 @@ temperature is high:
 
 Summary:
 =========
-![image](https://github.com/user-attachments/assets/c0f52e02-b77e-4431-a68c-d8ad0db403b5)
+![image](https://github.com/user-attachments/assets/3d43cf7b-e3ad-427f-b05c-21996ba9ee26)
 
   1) make sure your prompt are clear and specific.
   2) any time add specific examples, so that it learn typically lot more than provide few more parameters.

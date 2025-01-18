@@ -46,7 +46,7 @@ What is in context Learning:
   - this is what happens, the learning was happening through the context, there is no 
     gradient update , retraining of model parameters which is not required in this case.
   - model is capable of learning from only from the context which is provided along with the prompt.
-![image](https://github.com/user-attachments/assets/1e0392b8-5f6b-4341-996b-6f567d509923)
+![image](https://github.com/user-attachments/assets/e0835f8a-c7ff-43fa-a9bf-1b0856479ca5)
 
   - this seems to be completely magically.
   - because models like GPT-3 are optimized for text completion, aren't train to solve specific

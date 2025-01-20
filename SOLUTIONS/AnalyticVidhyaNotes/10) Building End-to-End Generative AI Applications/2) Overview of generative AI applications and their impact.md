@@ -90,14 +90,12 @@ ML Picker on Hugging face:
 
 <p><detail><summary> 4.Focus of this course:</summary>
 
-   - we will understand end to end gen AI applications , which hopefully get better idea by now
-   - standard architecture and tools for building such generative ai apps
-   - no code approach
-   - code focused platforms and tools
-   - build quick end to end gen ai apps
-   - hands on tutorials and projects to build your own gen AI apps
-   - do not need to learn front end frameworks like javascript.
- 
-  
+
+  - in this course, we will understand what an end to end gen AI applications, hopefully better idea by end of course.
+  - look at standard architecture and tools to build such end to end applications.
+  - focus on no code platforms and tools to build end to end GEN AI applications.
+  - focus on some generals.
+  - focus on code platforms
+  - build end to end applications with just python , no need of front end language like javascript.
   
 </detail></p>

@@ -63,6 +63,7 @@ Ethical Consideration:
 
 ![image](https://github.com/user-attachments/assets/6747a66b-9f9e-4991-9ffc-97df402865b5)
 
+![image](https://github.com/user-attachments/assets/e0e56703-0f26-4f9e-976f-217639b32cc7)
 
   - advance pattern completers and data generators they dont understand fully meaning like human.
   - reflective bias in training dataset can skew ai content.
@@ -70,5 +71,7 @@ Ethical Consideration:
   - as you can gemini could not able generate image of pope.
   - you should not put all images , since pope are in vatican city certain become pope.
   - having control over right kind of data, right kind of training
-  - also should have guardrails and moderations in genAI models.
-  - these are critical while training gen AI applicaitons.
+  - also should have guardrails and moderations in generative response from llm
+     are critical to keep in mind whenever you are building genAI applications.
+  
+  -

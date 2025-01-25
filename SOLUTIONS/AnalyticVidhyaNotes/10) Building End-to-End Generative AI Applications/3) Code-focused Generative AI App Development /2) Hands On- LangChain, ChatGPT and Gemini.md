@@ -113,10 +113,12 @@ Step 7: add memory to build a conversation chain:
 ![image](https://github.com/user-attachments/assets/2f674fcb-d29d-4856-98a9-ef16fc434000)
 
  - now create conversation chain pipeline
- - load memory data from memory variables which is the conversation buffer memory.
+ - RunnableLambda tells-load memory data from memory variables which is the conversation buffer memory.
  - this tells runtime load the historical conversations you have with chatgpt and store it in history.
  - itemgetter("history") is accessing the conversations from the history variable
- - and then it tells us , rather tells langchain that ok now send these history to the prompt
+ - then it tells us, rather it tells langchain that ok now send this history to the prompt
+ - prompt is where user asks questions
+ - so along then with the historical conversation and prompt send both to the model and get response back.
  - history conversation and history send both to model and get response.
 
  - run conversation chain

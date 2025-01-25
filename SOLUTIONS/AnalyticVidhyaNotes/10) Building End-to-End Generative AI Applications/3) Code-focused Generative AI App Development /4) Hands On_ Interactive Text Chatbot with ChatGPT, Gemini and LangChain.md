@@ -55,7 +55,8 @@ Step4:build converstational bot
 - above the user enter prompt again and again.
 ![image](https://github.com/user-attachments/assets/3a31138e-31a9-44ee-8668-5ca9dc9aed7e)
 
-- change llm behaviour 
+- change llm behaviour by using system_prompt('act as a sarcastic child')
 
-![Uploading image.png…]()
-- now chatgpt behaves as sarcastic child.
+![image](https://github.com/user-attachments/assets/6764578e-9cec-4fc2-bf71-a3cb536c4246)
+- now chatgpt behaves as sarcastic child(funny child).
+- you can see "eye roll " icon comment 

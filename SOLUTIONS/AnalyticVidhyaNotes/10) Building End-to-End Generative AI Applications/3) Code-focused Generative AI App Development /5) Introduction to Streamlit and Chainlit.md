@@ -41,6 +41,7 @@ https://dashboard.ngrok.com/
 
 why we need ngrok:
 ===================
+![image](https://github.com/user-attachments/assets/98d59196-fa17-4bde-bbf9-7b4940273953)
 
   - google colab runs on a server on google cloud, we cant access that.
   - when we deploy app on colab, we are not actually run on collab, we actually run on google cloud server on which colab is deploying.

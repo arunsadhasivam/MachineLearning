@@ -30,51 +30,51 @@ What is Rag System:
   - helps regular llm augment their information with custom knowledge before generating answers.
   - quickly become defacto stanford and architecture for building search and QA Systems.
  
-<p><details><summary>1.Document processing and encoding</summary>  
-  
-Step 1: Document processing and encoding:
-==========================================
-
-![image](https://github.com/user-attachments/assets/7e2b3277-107f-405e-b2f9-ef44b5ddebce)
-
-  - this is where you take in your custom document or custom knowledge base.
-  - this is where custom documents are processed and chunked.
-  - these chunks are typically converted to embeddings where the llm embedding model which is
-    usually transformer model.
-  - chunks and embeddings are stored in vector DB along with metadata like file name, page no.
-
-Note:
-=====
-
-  - Now once
-    1) your custom documents
-    2) your own knowledge base processed
-    3) chunked
-    4) converted to embeddings
-    5) stored in vector db 
-    This is where you build the RAG system QA and search 
-
-</details></p>    
-
-
-<p><details><summary>2.QA Search and Generation</summary>  
-
-Step 2: QA Search and Generation:
-==================================
-![image](https://github.com/user-attachments/assets/754bec29-9d40-41fd-a240-f1f888668729)
-
-   - Based on the user question or query the system retrieves the relevant document chunks
-   - these are the document chunks based on custom knowledge base which are similar to the question which is
-     asked by the user.
-   - these chunks are passed on to the llm along with your query to augment its knowledge.
-   - this is where once the relevant documents chunks related to the questions are retrieved
-     the question along with the document chunks are sent to llm like chatGPT.
-   - given the source of contextual information (to the chatgpt) can you answer the question fruitfully.
-   - then the llm like chatgpt generates the response to the user query or question based on contextual information.
-
-- these are the standard steps to build RAG system.
-
-</details></p>
+    <p><details><summary>1.Document processing and encoding</summary>  
+      
+    Step 1: Document processing and encoding:
+    ==========================================
+    
+    ![image](https://github.com/user-attachments/assets/7e2b3277-107f-405e-b2f9-ef44b5ddebce)
+    
+      - this is where you take in your custom document or custom knowledge base.
+      - this is where custom documents are processed and chunked.
+      - these chunks are typically converted to embeddings where the llm embedding model which is
+        usually transformer model.
+      - chunks and embeddings are stored in vector DB along with metadata like file name, page no.
+    
+    Note:
+    =====
+    
+      - Now once
+        1) your custom documents
+        2) your own knowledge base processed
+        3) chunked
+        4) converted to embeddings
+        5) stored in vector db 
+        This is where you build the RAG system QA and search 
+    
+    </details></p>    
+    
+    
+    <p><details><summary>2.QA Search and Generation</summary>  
+    
+    Step 2: QA Search and Generation:
+    ==================================
+    ![image](https://github.com/user-attachments/assets/754bec29-9d40-41fd-a240-f1f888668729)
+    
+       - Based on the user question or query the system retrieves the relevant document chunks
+       - these are the document chunks based on custom knowledge base which are similar to the question which is
+         asked by the user.
+       - these chunks are passed on to the llm along with your query to augment its knowledge.
+       - this is where once the relevant documents chunks related to the questions are retrieved
+         the question along with the document chunks are sent to llm like chatGPT.
+       - given the source of contextual information (to the chatgpt) can you answer the question fruitfully.
+       - then the llm like chatgpt generates the response to the user query or question based on contextual information.
+    
+    - these are the standard steps to build RAG system.
+    
+    </details></p>
 
 <p><details><summary>2.RAG System architecture</summary>  
    

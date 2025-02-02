@@ -31,7 +31,7 @@ Writer :
         from IPython.display import Markdown
       
       
-        llm = ChatOpenAI(model='gpt-40-mini')
+        llm = ChatOpenAI(model='gpt-40-mini',temperature=0)
         prompt =  ChatPromptTemplate.from_message([ ( 'system', 'you are a research assistant'),('user','{input}')])
        output_parser = StrOutputParser()
        basic_chain = prompt| llm|output_parser
@@ -39,7 +39,7 @@ Writer :
        output=basic_chain.invoke({'input','write a 3 bullet point summary of how transformer worker'})
        Markdown(output)
       
-       ![image](https://github.com/user-attachments/assets/e1c66fbf-eb65-4a86-bf30-9ab36aad2360)
+ ![image](https://github.com/user-attachments/assets/e1c66fbf-eb65-4a86-bf30-9ab36aad2360)
       
       //draft of research report using chains in langchain
       //first setup writer_msg

@@ -63,14 +63,14 @@ CODE:
 
   above output is good, reviewer chain 
 
-    REVIEWER_SYS_MSG ="""you are a reviewer  for research reports"""
-    prompt_reviewer =ChatPromptTemplate.from_messages([('system',REVIEWER_MSG),
-                                                      ('human','provide feedback on this research paper{report}\n.as concise as 5 concise bullet points')])
-
-   llm_reviewer =ChatOpenAI(model = 'gpt-40-mini',temperature=0.2) //since reviewer we want interesting feedback.
-   review_chain = prompt_reviewer|llm_reviewer|output_parsers
-   feedback_output = review_chain.invoke({'report':output) //from previoius output line 10
-   Markdown(feedback_output)
+        REVIEWER_SYS_MSG ="""you are a reviewer  for research reports"""
+        prompt_reviewer =ChatPromptTemplate.from_messages([('system',REVIEWER_MSG),
+                                                          ('human','provide feedback on this research paper{report}\n.as concise as 5 concise bullet points')])
+    
+       llm_reviewer =ChatOpenAI(model = 'gpt-40-mini',temperature=0.2) //since reviewer we want interesting feedback.
+       review_chain = prompt_reviewer|llm_reviewer|output_parsers
+       feedback_output = review_chain.invoke({'report':output) //from previoius output line 10
+       Markdown(feedback_output)
     ![image](https://github.com/user-attachments/assets/a276f925-5ba0-4a71-9984-135c8adf6f1f)
 
 ![image](https://github.com/user-attachments/assets/56415847-4387-4b35-935d-ad1ecc97f3fc)
@@ -83,15 +83,15 @@ CODE:
   and provide final draft.
 
 
-    FINAL_WRITER_MSG="""Final draft with incorporating the write report and feedback report by reviewer"""
-    prompt_final_writer = ChatPromptTemplate.from_message([('system',FINAL_WRITER_MSG),
-                                                           ('human','Write  a reviewed and improved version of 
-                                                             research report'{report}, based on feedback{feedback})
-                                                          ])
-   llm_final_writer = chatOpenAI(model='gpt-40-mini',temperature=0.2)
-   chain_final_writer = prompt_final_writer | llm_final_writer| output_parser
-    output_final_report = chain_final_writer.invoke({'report':output,'feedback':feedback_output})
-   
+        FINAL_WRITER_MSG="""Final draft with incorporating the write report and feedback report by reviewer"""
+        prompt_final_writer = ChatPromptTemplate.from_message([('system',FINAL_WRITER_MSG),
+                                                               ('human','Write  a reviewed and improved version of 
+                                                                 research report'{report}, based on feedback{feedback})
+                                                              ])
+       llm_final_writer = chatOpenAI(model='gpt-40-mini',temperature=0.2)
+       chain_final_writer = prompt_final_writer | llm_final_writer| output_parser
+        output_final_report = chain_final_writer.invoke({'report':output,'feedback':feedback_output})
+       
 
 ![image](https://github.com/user-attachments/assets/5622e954-d770-4c57-b54a-fcf61ede8cb2)
 

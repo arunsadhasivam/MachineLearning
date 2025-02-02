@@ -178,5 +178,14 @@ Runnable Pass Through:
 
  - once we assigned report( 'report':writer_chain} to some thing , it is **indischain for ever** .
  - so all the upcoming chain (feeback=review_chain) got to know about it.
- - so now we assign this , now we gave information about the important feedback( RunnablePasstrhough().assign(feedback=review_chain) 
-       
+ - so now we assign this  , now we gave information about the important feedback( RunnablePasstrhough().assign(feedback=review_chain) 
+ - now we are ready to pipe to the final_write_chain.
+ - now we have composed everything to one chain.
+ - we have chained all together.
+ - we can actually say output_final_report
+ - what is the input to chain.
+![image](https://github.com/user-attachments/assets/5b97b726-84a5-4ce5-b16c-3a0ae54dce7e)
+
+ - intput is nothing but the input to first chain.
+ - now we have all the process of routing these together and producing final output
+         

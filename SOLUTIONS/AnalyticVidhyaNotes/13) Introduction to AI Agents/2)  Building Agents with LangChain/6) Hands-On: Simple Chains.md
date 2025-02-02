@@ -72,7 +72,9 @@ CODE:
        review_chain = prompt_reviewer|llm_reviewer|output_parsers
        feedback_output = review_chain.invoke({'report':output) //from previoius output line 10
        Markdown(feedback_output)
-    ![image](https://github.com/user-attachments/assets/a276f925-5ba0-4a71-9984-135c8adf6f1f)
+
+
+  ![image](https://github.com/user-attachments/assets/a276f925-5ba0-4a71-9984-135c8adf6f1f)
 
 ![image](https://github.com/user-attachments/assets/56415847-4387-4b35-935d-ad1ecc97f3fc)
 

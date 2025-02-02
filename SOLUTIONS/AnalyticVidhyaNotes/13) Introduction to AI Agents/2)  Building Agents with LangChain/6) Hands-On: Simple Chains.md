@@ -65,7 +65,8 @@ CODE:
 
         REVIEWER_SYS_MSG ="""you are a reviewer  for research reports"""
         prompt_reviewer =ChatPromptTemplate.from_messages([('system',REVIEWER_MSG),
-                                                          ('human','provide feedback on this research paper{report}\n.as concise as 5 concise bullet points')])
+                                                          ('human','provide feedback on this research paper{report}\n.
+                                                          as concise as 5 concise bullet points')])
     
        llm_reviewer =ChatOpenAI(model = 'gpt-40-mini',temperature=0.2) //since reviewer we want interesting feedback.
        review_chain = prompt_reviewer|llm_reviewer|output_parsers

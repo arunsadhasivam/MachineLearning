@@ -1,4 +1,4 @@
-Hands-On: Understanding Runnables LCEL:
+![image](https://github.com/user-attachments/assets/c7b9a5d6-3ccf-42aa-870b-fc2f4a0c5f0b)Hands-On: Understanding Runnables LCEL:
 ========================================
 
 ![image](https://github.com/user-attachments/assets/b8ceb89f-aec1-421b-add2-d55aab3c2553)
@@ -189,3 +189,18 @@ Runnable Pass Through:
  - intput is nothing but the input to first chain.
  - now we have all the process of routing these together and producing final output
          
+![image](https://github.com/user-attachments/assets/de679b6b-25c0-4346-bdbf-87a3f4d739f6)
+![image](https://github.com/user-attachments/assets/ab264694-32af-4a9c-849f-74dc347f30dc)
+![image](https://github.com/user-attachments/assets/7b99adad-5f95-4b7f-be62-6ac53594012b)
+
+
+       composed_chain = {'report': writer_chain} | RunnablePassthrough().assign(feedback=review_chain)
+
+ - one thing that is missing here is , we like to be sure that came out in this output was a result of the process
+   that we specified in this chain here.
+![image](https://github.com/user-attachments/assets/bcd28aa0-4702-4ef6-9da5-adfffdf96e49)
+![image](https://github.com/user-attachments/assets/aca70e57-8293-4f63-84ff-e41a2e92eef0)
+
+ - we modify the chain_final_writer , we are not adding llm_final_writer
+ - so that we can inspect
+ - after inspect output , we conclude that this output is good

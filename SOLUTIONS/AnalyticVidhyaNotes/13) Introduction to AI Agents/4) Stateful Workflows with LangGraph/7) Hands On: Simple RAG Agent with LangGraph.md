@@ -107,3 +107,27 @@ Step 6: Setup rest of the graph:
 Step 7: Execute with example:
 ===================================
 
+![image](https://github.com/user-attachments/assets/435ca211-fe66-4e98-b5b2-bfa9f07762ce)
+![image](https://github.com/user-attachments/assets/602d902f-f2d8-4ec2-a9f3-592c96209756)
+
+
+- now the graph is executed.
+- we are asking question "in this paper how do authors set up colloboration between human and LLM"
+- now  , we also check the compiled_graph.invoke() output also
+
+![image](https://github.com/user-attachments/assets/c4a5684e-0986-4294-ae2c-6c4b9c628b3e)
+![image](https://github.com/user-attachments/assets/d91a3f82-5d04-413f-a02e-a87fb06b34e4)
+
+- to access the last element in messages key 
+![image](https://github.com/user-attachments/assets/5e371473-dfc6-45f3-a53c-8766d75c77ed)
+- we got the output reference the rehack approach.
+
+
+- to know the name of the framework
+
+![image](https://github.com/user-attachments/assets/198f9d75-5189-414f-99c5-f1221f63e5fe)
+
+
+Summary:
+=========
+    above is agentic Rag with langraph.

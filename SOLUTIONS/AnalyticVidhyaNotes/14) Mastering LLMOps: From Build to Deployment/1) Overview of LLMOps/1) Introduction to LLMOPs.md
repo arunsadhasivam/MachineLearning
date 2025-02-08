@@ -100,6 +100,8 @@ What is LLMOps:
 Course Overview:
 =================
 
+![image](https://github.com/user-attachments/assets/038d6e3f-cb4c-44d2-b96e-1a41b8da7bb6)
+
   - 8 modules
   - Module1:.overview of llm ops.
   - Module2:major aws services(module 2 aws sagemaker in which we install sage maker notebooks and setup working env and experiments)

@@ -215,3 +215,110 @@ Dealing with documents:
 
 RAG Pipeline with LangChain:
 ==============================
+
+- how Rag pipeline will look like with langchain.
+- previously we have llm model and we have a query     and then
+- we use vector store to enter certain data and then
+- we have website scrapping also as a feature.
+- so then the query was then used for vector store search , and we were also scrapping
+  some of the data and then we had website scrapping also as a feature.
+- so the  1) query was then used for vector store search and 2) we are also scrapping
+  some of the data from website and 3) then we were mixing all these in our prompt
+  and sending to LLM model.
+![image](https://github.com/user-attachments/assets/49f6ae92-7d8b-4bbf-a084-71b6f04bcf78)
+
+- now , the way the langchain will integrate over here , we will have langchain components
+  in between all of these things.so the query would now be standardized using something now
+  known as **prompt template**.
+- for retriever, or from vector store we would be using something called retrievers.
+- all the information about the retriever would be now saved in retriever component.
+- the document loading part, which was done manually using code before can now simply be done
+  using document loaders, this not just saves time, but really standardizes document loading part.
+- for the llm module , we have a lot of llm configurations and even the different type of llm modules
+  that we want to support can now be put in to a component known as LLMs and once the output from
+  model is obtained, we dont write manual code which changes over time but we do it in a standardized
+  fashion using output parser.
+- so, this is how it looks like now
+- 1) we have our query , 2) the query is now input into prompt template 3) we have retrievers that goes
+     to vector store to retrieve the data 4) we have website scrapping 5) this document is also
+  used in prompt template.6) combination of all three create a final prompt.
+- this prompt then calls the LLM which has the underlying definition of where the LLM is and what is
+  the llm configuration for the API that needs to be performed.
+- this then finally calls the LLM output.
+- the LLM generates the output, that output is then given to the output parser.
+- the output parser has very set well -defined structure that we want to get the output in and
+  this is also standardized which leads to the final output that they are looking for.
+- in this way l**angchain integrated throughout the llm applications**, not only saves lot of time
+  to write  manual code and but also sametime standardize all of information that was hidden inside the code
+  in a well defined structured format which makes it really easily to research in our LLM applications in the
+  development process and deployment process.
+
+LCEL:
+=====
+![image](https://github.com/user-attachments/assets/075b1b30-d1a7-4495-9313-24855ceded98)
+
+- discuss about what is a chain.
+- LCEL is langchain Expression language
+- way to define the different component using pipe (|) operator
+- as in previous side, we have llm configuration , output parsing and also our query which was then
+  fed in to prompt template.
+- now we can create a 1) component known as **prompt**, 2)component known as **llm** and a 3)component known as
+  **parser** and **join all using the pipe operator**.
+- this way the chain is formed.
+- this chain can then be invoked simply by clicking chain.invoke()
+- then we can give certain input variables that we have defined by creating a prompt and then this way chain is formed.
+- this chain runs gives the output to llm , calls it, gets the output, parses the output in given format and then present it to us.
+- so this standardizes the whole RAG pipeline in a very simple , composable chain.
+- and that is the magic of langChain.
+- so these are very modularized small structures which have well defined configurations.
+
+
+Advantages of LangChain (LCEL) language:
+=========================================
+
+
+![image](https://github.com/user-attachments/assets/bd4c9ef8-51dd-4d56-b0a2-99845ae73cc7)
+
+    - we just saw .invoke() method can be called to get the output , but thats not it.
+    - LCEL helps us in a lot of ways
+    - It gives us streaming support by default.
+    - This could have something that we have to write down via code after we get the LLM output and implementing
+      streaming is not that straight forward.
+    - it also has Async and multi-chain parallel execution support , in which the chain that we saw earlier , there
+      could be multiple chain and then also we could run these chains in async fashion as well.
+
+    - it has options for retries and fallback support
+    - so 
+            1) calling the llm ,
+            2) retrying it
+            3) then if retry fails multiple times what should be the fallback and all the things should 
+              not have to be done manually , but we can simply do it using LCEL.
+              once we have chain available , this is feature supported by default.
+    - we have intermediate steps and callback support.
+    - so basically , if we want to get deeper insights into want is happenning , we can just simply implement
+      an callback and get to know what is hapenning at every step of the process.
+    - streaming for different output types with partial schema.
+    - so , if we are going to stream JSON output then in streaming the JSON would not be valid JSON beforehand.
+    - then we also have partial output of JSON and this streaming output process also takes care of making sure
+     that the streamed output which is partially JSON also adhere to certain kind of rules  that we have said before.
+    - And so streaming along the different schemas is also a challenge which is really easily to implement in langchain.
+
+
+1.LangSmith:
+============
+
+- then we have langsmith for monitoring.
+- in this once we have langchain , 
+        1) we want to **monitor** all the input and output and 
+        2) the time it tooks,
+ - we can simply use langSmith to finally monitor what happened in chain at each step what were the output .
+ - support for langsmith is really easy if you are using langChain.
+
+2.LangServe:
+============
+
+- langserve for deployment
+- if the code works in local, we want to then finally want to convert this to an actual webserver.
+- to do this we might have to use other frameworks such as FastAPI or flask, but if you have
+  langServe and langchain created.
+- then converting the **chain to deployment** is really easy using langServe.

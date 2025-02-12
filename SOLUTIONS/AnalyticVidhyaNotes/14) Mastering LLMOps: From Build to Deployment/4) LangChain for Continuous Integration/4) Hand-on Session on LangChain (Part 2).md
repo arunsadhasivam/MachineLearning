@@ -27,5 +27,20 @@ Hand-on Session on LangChain (Part 2):
    inside that you can just go to chat-openai and see what all input parameters are supported.
  - As you can see , rather than having to hardcode this into our code, these are parameters which can be saved at other
    places and then injected at runtime.
- - so we have the model name , 
+ - so we have the model name , temperature , max_no_of_tokens we looking far and then we call invoke()
+ - based on temperature, if 2 more creative as hyperparameter.
      
+![image](https://github.com/user-attachments/assets/9442e443-6e1c-4f32-953f-c17cae982ec7)
+
+
+ - if we want to parse the output, we just care about the final output , we can use output_parsers.
+ - you can mention we are looking for csv or json.
+ - we pass the output of stringOutputParsers
+ - one of the things the llm provides is (|) pipe operator it can added at the front to create a chain.
+ - after it run it can simply pass to the next set of input.
+
+![image](https://github.com/user-attachments/assets/2717962f-2b1d-41d5-be73-ef969c845e6f)
+
+
+ - you can the output_parser does not care about the full fledged response, but only the final response that is generated.
+ - if it is a json parser , it makes sure json output is created.

@@ -58,7 +58,8 @@ Hand-on Session on LangChain (Part 4):
   - this is something about langchain.
   - now we can actually take this output and standardize it into a much better way and monitor at another central location
     using something called langfuse.
-![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/cd4601f8-3774-48b1-873f-e19ed9db7c74)
 
    
      

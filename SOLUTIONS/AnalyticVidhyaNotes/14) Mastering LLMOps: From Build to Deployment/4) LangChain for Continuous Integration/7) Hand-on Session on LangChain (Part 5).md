@@ -1,6 +1,12 @@
 Hand-on Session on LangChain (Part 5):
 ======================================
 
+![image](https://github.com/user-attachments/assets/609b55f6-8185-45d8-800d-ef8e925352a8)
+![image](https://github.com/user-attachments/assets/44e182fb-b237-474a-9ce4-4a1f50bd22c2)
+![image](https://github.com/user-attachments/assets/a6e0af48-deef-4fd0-ac82-f9a07c45bf40)
+![Uploading image.png…]()
+
+
 - now we have documents ready and now build a chain.
 - so we will import the llm and then create a llm object and then we would have our prompt template
 - so this is how it is , answer the **questions using provided context only**

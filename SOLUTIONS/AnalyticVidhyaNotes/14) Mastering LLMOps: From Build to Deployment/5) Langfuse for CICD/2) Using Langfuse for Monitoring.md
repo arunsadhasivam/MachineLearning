@@ -127,13 +127,77 @@ Langfuse Python Decorator:
 Langfuse scores and evaluations:
 =================================
 
+  - in langfuse, we have something called score and evaluation.
+  - Now, score serve as a object to store evaluation metrics in langfuse
+  - basically, how good the output is , can be measured by score.
+  - A score can be of different dataype it can
+    1) numerical
+    2) categorical
+    3) or boolean value.
+  - it has certain attributes, which is the name of the score and value that the score contains.
+  - and we can also have additional metadata of the score,
+  - for score value, we can send certain comments, send the source from which the score is comming
+    and we can also have various other ids of the score.
+  - score can be of various types and it can be generated for a given LLM output in traces from
+    multiple location.
+  - it can be self annotated in ui, which is given by the team. basically how good the model perform the
+    output generated, one can manually give the score in the UI.
+  - we have also user feedback integration, in which the UI directly shows the feedback to the enduser
+    and then the end user can judge the output by a thumbsup , or thumbs down or some kind of comment or
+    some kind of score.
+  - and then langchain automatically score for that particular trace,
+  - this over time really helps us to know what is the end user liking a lot, what not liking.
+  - and then we also have model based evaluations, in which we can use llm to score trace calls based on
+    various criteria like toxicity and hallunication.
+  - After an output is send to the user, we can run another LLM output , which can score the output generated for
+    different criteria, and this score is used in future to see how the application is performing in production.
+  - we can create an own custom model evaluation and this can run automatically after every trace based on
+    certain filter criteria.
+  - we can also fetch the runs and upload the computed score to the ui.
+  - now this scoring system helps us a lot in improving the quality of our LLM applications.
 
-- 
+![image](https://github.com/user-attachments/assets/ce0247e4-cc42-4dc4-a2b5-375975cfb1e3)
 
-1.@observe():
-==============
 
-    - 
+Langfuse Datasets:
+==================
+
+  - this is what end to end CI/CD pipeline looks like
+  - in which, we can use langfuse datasets .
+  - datasets in langfuse are collections of inputs and expected output of an LLM applications.
+  - they are used to benchmarks new releases before it goes to production.
+  - basically this dataset can be created in langfuse and can help us a lot in maintaining the quality of our LLM applications.
+![image](https://github.com/user-attachments/assets/c3b08af9-de6c-4e5e-bc2a-5acc06d014df)
+
+  - Now, using this diagram, let see how dataset can be used.
+  - first we have the dataset as a capability in the langfuse deployment.
+  - now, an engineer can add an initial dataset based on input and output expected by LLM applications.
+  - and some of the tests, that needs to be run to ensure that whatever the change we do , still output the same kind of
+    output for those particular test.
+  - This is to ensure some sort of a baseline or basic quality check which needs to be ensured before making any deployment.
+  - we then have a CI/CD pipeline , so now whenever an engineer makes change to code, this change might be changing
+    the prompt or changing the LLM type.
+  - this dataset is fetched form langfuse cloud solution.
+  - once the dataset is fetched, we can evaluate the present LLM and that output can be compared with the dataset output.
+  - this time , we can make a decision , if the output of the new changes actually gives better or even the same score
+    of the last dataset run that we did.
+  - and if that it is yes, which means it is safe to deploy the application to production and then the application is
+    deployed in production.
+
+![image](https://github.com/user-attachments/assets/c2e641ba-0ec8-466f-b0bc-0dc26b368366)
+
+  - and then we have traces, evaluations,and user feedback
+  - so basically all the end user interaction is put in to traces in to langchain ecosystem.
+  - these traces can be used by another quality engineer.
+  - and this can also be an engineer looking at those traces , the evaluation and feedback and based on it, finding out
+    certain really good input and output which can be used in our feature checks.
+  - and so the QA engineer then goes and updates these datasets and then in the next time these datasets and again fetched
+    and when new release happens , in this way , we have continuous cycle of regular feedback from the end user ,
+    qa engineer, engineers and keep on updating the dataset.
+  - these dataset are then evaluated again and again when a new release is made and using this cycle, the quality of the
+    application improved a lot.
+
+ - this is langfuse in detail.
        
 
 

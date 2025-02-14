@@ -123,6 +123,13 @@ Langfuse Python Decorator:
 - the platform benefits is also that it can track the performance of this prompt in langfuse tracing.
 - and so we know, which prompt was actually responsible for that particular generation.
 
+
+Langfuse scores and evaluations:
+=================================
+
+
+- 
+
 1.@observe():
 ==============
 

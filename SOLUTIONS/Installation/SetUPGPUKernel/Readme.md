@@ -23,12 +23,27 @@ CUDA and cuDNN are essential libraries that enable deep learning frameworks to u
       Follow the installation steps provided by NVIDIA.
 
 
+Make sure below path in environment path:
+==========================================
+
+
+cuda tool kit, cudnn in path
+
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.x\bin
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.x\lib
+        C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.x\include
+        
+        C:\cudnn\bin
+        C:\cudnn\lib
+        C:\cudnn\include
+   
+
   Method 1: Check Environment Variables
   =====================================
 
     If CUDA is added to your environment variables, you can check its path this way:
 
-   
+  
 On Windows:
 ==========
 

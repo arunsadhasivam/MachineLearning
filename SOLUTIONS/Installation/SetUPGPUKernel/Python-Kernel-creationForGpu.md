@@ -25,3 +25,18 @@ To install Wheels, you must first install the nvidia-pyindex package, which is r
 You should now be able to install the nvidia-pyindex module.
 
     py -m pip install nvidia-pyindex
+
+
+Procedure
+===========
+
+Install the CUDA runtime package:
+===================================
+
+    py -m pip install nvidia-cuda-runtime-cu12
+
+Optionally, install additional packages as listed below using the following command:
+====================================================================================
+
+
+    py -m pip install nvidia-<library>

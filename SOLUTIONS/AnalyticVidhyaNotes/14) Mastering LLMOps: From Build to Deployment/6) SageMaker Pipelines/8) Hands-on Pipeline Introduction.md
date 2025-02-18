@@ -85,7 +85,11 @@ data is uploaded
 4.Global Parameters:
 ======================
 
+- we can specify as a global parameter and while running the pipeline we can specify it .
+- we can even give a default value.
+- we can see processing instance should run on this machine, which is the process instance
+- if the value is not provided then the default value will be taken from default=process_instance.
 
 ![image](https://github.com/user-attachments/assets/7d2e65bf-d23b-44f1-a38c-e6becc0dd6f2)
 
-![Uploading image.png…]()
+ - instance_type, modelapproval status, input data and mse threshold 

@@ -15,6 +15,8 @@ NOTE:
   TESTED WITH python 3.11 it works!!!!!
 
 ![image](https://github.com/user-attachments/assets/627218f0-316e-4d1c-92db-37725f332199)
+![image](https://github.com/user-attachments/assets/0d917b62-48e1-41d3-9953-2824d1eda29f)
+![image](https://github.com/user-attachments/assets/dcc7442c-a3dd-4677-9e32-c8c7e54a0216)
 
 
 Solution: Use a Compatible Python Version

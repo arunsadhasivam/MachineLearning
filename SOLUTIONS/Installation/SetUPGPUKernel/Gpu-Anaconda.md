@@ -122,8 +122,8 @@ Once you’ve installed your deep learning framework, verify that the GPU is det
 
     TensorFlow:
 
-import tensorflow as tf
-print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+     import tensorflow as tf
+     print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
 This should list the number of GPUs available. If it returns a number greater than 0, TensorFlow has detected the GPU.
 

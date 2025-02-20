@@ -8,6 +8,13 @@ Issue: TensorFlow Installation Fails on Python 3.13.2 or latest
 TensorFlow does not yet support Python 3.13. As of now, the latest stable TensorFlow versions (2.15+) 
 only support Python **3.8 – 3.11**.
 
+NOTE:
+======
+
+
+  TESTED WITH python 3.11 it works!!!!!
+
+![image](https://github.com/user-attachments/assets/627218f0-316e-4d1c-92db-37725f332199)
 
 
 Solution: Use a Compatible Python Version

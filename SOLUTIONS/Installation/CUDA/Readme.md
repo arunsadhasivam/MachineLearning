@@ -9,6 +9,11 @@ CUDA:
 https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html
 
 
+cuda for specific rtx
+======================
+
+https://www.nvidia.com/en-us/drivers/details/235772/
+
 General:
 ========
 

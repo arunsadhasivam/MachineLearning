@@ -11,6 +11,16 @@ Step 1:
 ![image](https://github.com/user-attachments/assets/af868a9d-3e50-4887-afa4-1a473f7bcb55)
 
 
+GPU Kernel
+============
+
+![image](https://github.com/user-attachments/assets/dd2cff82-c53e-4bae-96d8-2c303aff6a56)
+
+CPU Kernel
+==========
+![image](https://github.com/user-attachments/assets/65847ac5-641d-4e34-815f-f0ef84117a64)
+
+
 NOTE:
 =====
 
@@ -38,8 +48,7 @@ step 3:
 ========
 
 
- ![image](https://github.com/user-attachments/assets/3abaa284-7a01-4bac-a98d-cd9ff78e18c2)
-![image](https://github.com/user-attachments/assets/36cc64c0-65c4-4092-a081-b0b5c63d3fac)
+ 
 
 
 Using Python instead of conda:
@@ -59,6 +68,7 @@ Step 1:
         (PYTHON_CUDA_GPU_HOME) C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>
             pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
+![image](https://github.com/user-attachments/assets/11404b23-4bf5-4737-9021-26cfa68491f3)
 
 
 

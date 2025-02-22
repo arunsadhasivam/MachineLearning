@@ -56,7 +56,8 @@ Step 1:
         
         C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>activate
         
-        (PYTHON_CUDA_GPU_HOME) C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+        (PYTHON_CUDA_GPU_HOME) C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>pip install torch torchvision torchaudio --index-url
+                 https://download.pytorch.org/whl/cu124
 
 
 

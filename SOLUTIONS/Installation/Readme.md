@@ -18,8 +18,3 @@ Hard ware:
 
 ![image](https://github.com/user-attachments/assets/d276ecbc-356b-4b46-83d8-89fcd928aed7)
 
-
-ADA 2000 RTX laptop installation:
-===================================
-
-https://github.com/arunsadhasivam/MachineLearning/blob/main/SOLUTIONS/Installation/SetUPGPUKernel/Adaversion-working/Readme.md

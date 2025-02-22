@@ -2,7 +2,10 @@ Step 1:
 =======
 
 
+NOTE:
+=====
 
+use 3.10 only if python 3.11 is not working
 
     conda create --name pytorch_cuda python=3.10 -y
     conda activate pytorch_cuda
@@ -18,7 +21,11 @@ GPU Kernel
 
 CPU Kernel
 ==========
+
+![image](https://github.com/user-attachments/assets/def6c238-d298-4f5d-bff5-4e83abf6b9f2)
+
 ![image](https://github.com/user-attachments/assets/65847ac5-641d-4e34-815f-f0ef84117a64)
+![image](https://github.com/user-attachments/assets/84e31414-0e8c-40e8-8bc8-058eaa4ded77)
 
 
 NOTE:
@@ -47,6 +54,7 @@ if i use python 3.11
 step 3:
 ========
 
+![image](https://github.com/user-attachments/assets/bb7a47c7-43cf-499e-82d8-1a7dd012da16)
 
  
 
@@ -72,4 +80,5 @@ Step 1:
 
 
 
+![image](https://github.com/user-attachments/assets/99ac192f-854c-4d37-b2cc-9e14ca53b99b)
 

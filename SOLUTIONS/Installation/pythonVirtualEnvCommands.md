@@ -23,3 +23,11 @@ Activate a virtual environment:
 
 Before you can start installing or using packages in your virtual environment you’ll need to activate it. 
 Activating a virtual environment will put the virtual environment-specific python and pip executables into your shell’s PATH.
+
+
+Create virutal Directory To Install:
+=======================================
+
+
+
+C:\Arun\PythonEnv>python -m venv PYTHON_CUDA_GPU_HOME

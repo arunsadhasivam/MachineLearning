@@ -32,7 +32,9 @@ NOTE:
 =====
 
 Even though you have in environment variable python 3.11 and installed 3.11 you can set 
-your kernel **pytorch_cuda** to use python 3.10
+your kernel **CONDA_CUDA_GPU_HOME** to use python 3.10
+
+
 
 ![image](https://github.com/user-attachments/assets/bb178c05-16d6-44e6-811e-719d55cc6d40)
 
@@ -54,9 +56,16 @@ if i use python 3.11
 step 3:
 ========
 
+GPU with conda:
+================
+
 ![image](https://github.com/user-attachments/assets/bb7a47c7-43cf-499e-82d8-1a7dd012da16)
 
- 
+CPU with conda:
+================
+
+ ![image](https://github.com/user-attachments/assets/cc46ea35-08b7-47d9-8196-097693d685bf)
+
 
 
 Using Python instead of conda:

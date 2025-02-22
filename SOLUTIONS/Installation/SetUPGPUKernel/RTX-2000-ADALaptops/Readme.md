@@ -42,3 +42,23 @@ step 3:
 ![image](https://github.com/user-attachments/assets/36cc64c0-65c4-4092-a081-b0b5c63d3fac)
 
 
+Using Python instead of conda:
+==============================
+
+Step 1:
+========
+
+        C:\Arun\PythonEnv>python -m venv PYTHON_CUDA_GPU_HOME
+        
+        C:\Arun\PythonEnv>cd PYTHON_CUDA_GPU_HOME
+        
+        C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME>cd Scripts
+        
+        C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>activate
+        
+        (PYTHON_CUDA_GPU_HOME) C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+
+
+
+

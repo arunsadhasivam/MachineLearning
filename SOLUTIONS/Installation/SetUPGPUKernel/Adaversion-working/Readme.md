@@ -5,6 +5,8 @@ Step 1:
     conda activate pytorch_cuda
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
+![image](https://github.com/user-attachments/assets/af868a9d-3e50-4887-afa4-1a473f7bcb55)
+
 
 Step 2:
 ========
@@ -23,4 +25,7 @@ if i use python 3.11
 step 3:
 ========
 
-![image](https://github.com/user-attachments/assets/58f669cb-133b-41d8-96f0-e907de8cf9b9)
+
+![image](https://github.com/user-attachments/assets/c992f407-2b14-40df-a246-ca1c1168b8c8)
+
+

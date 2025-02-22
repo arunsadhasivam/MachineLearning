@@ -7,12 +7,14 @@ NOTE:
 
 use 3.10 only if python 3.11 is not working
 
-    conda create --name pytorch_cuda python=3.10 -y
+    conda create --name CONDA_CUDA_CPU_HOME python=3.10 -y
     conda activate pytorch_cuda
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
 ![image](https://github.com/user-attachments/assets/af868a9d-3e50-4887-afa4-1a473f7bcb55)
 
+
+Create CPU , and GPU  virutal env - kernel in conda 
 
 GPU Kernel
 ============
@@ -85,9 +87,17 @@ Step 1:
         (PYTHON_CUDA_GPU_HOME) C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>
             pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 
+
+
+Create CPU , and GPU  virutal env - kernel in python
+=====================================================
+
+
 ![image](https://github.com/user-attachments/assets/11404b23-4bf5-4737-9021-26cfa68491f3)
 
 
+Python GPU version 
+=======================
 
 ![image](https://github.com/user-attachments/assets/99ac192f-854c-4d37-b2cc-9e14ca53b99b)
 

@@ -37,7 +37,7 @@ Steps involved in DPO:
 1.collecting preference dataset:
 ==================================
 
-    ![image](https://github.com/user-attachments/assets/6aa4bdce-0602-49ce-ac9c-f8cf91d949f7)
+  ![image](https://github.com/user-attachments/assets/6aa4bdce-0602-49ce-ac9c-f8cf91d949f7)
 
 ![image](https://github.com/user-attachments/assets/27f3d718-119e-4d76-b904-8d6a586c55fe)
 

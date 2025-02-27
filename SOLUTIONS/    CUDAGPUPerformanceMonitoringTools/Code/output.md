@@ -11,4 +11,6 @@ Multiple Runs:
 if NO GPU
 =========
 
+does not enabled with GPU python-cuda is not installed
+
 ![image](https://github.com/user-attachments/assets/1d7af80e-9e8b-49a0-9b0c-1336740d7f55)

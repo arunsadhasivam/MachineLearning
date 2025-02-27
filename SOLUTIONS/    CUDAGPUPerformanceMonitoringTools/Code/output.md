@@ -3,16 +3,12 @@ GPU Performance:
 ![image](https://github.com/user-attachments/assets/8a1911af-3237-4a97-90fa-fad9dfcc5520)
 
 
+Multiple Runs:
+===============
 
-(PYTHON_CUDA_GPU_HOME) C:\Arun\PythonEnv\PYTHON_CUDA_GPU_HOME\Scripts>python C:\WorkSpace\RAG\gpuPerformance.py
-GPU detected: NVIDIA RTX 2000 Ada Generation Laptop GPU
+![image](https://github.com/user-attachments/assets/5de40312-19d2-4a3a-b2be-f00c424a8bb5)
 
---- CPU Test ---
-Running on: cpu
-Matrix multiplication time: 1.4569 seconds
+if NO GPU
+=========
 
---- GPU Test ---
-Running on: cuda
-Matrix multiplication time: 0.4665 seconds
-
-GPU is 3.12x faster than CPU
+![image](https://github.com/user-attachments/assets/1d7af80e-9e8b-49a0-9b0c-1336740d7f55)

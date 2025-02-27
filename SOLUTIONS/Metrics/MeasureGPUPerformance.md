@@ -58,7 +58,9 @@ Run the application for detailed hardware monitoring including GPU metrics
 8.Process Explorer (Microsoft Sysinternals)
 ================================================================
 
-NOTE: tried it works well
+NOTE:
+======
+  tried it works well
 
 Download from Microsoft's website
 Run the executable (no installation required)

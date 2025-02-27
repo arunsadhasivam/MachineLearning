@@ -62,6 +62,10 @@ NOTE:
 ======
   **tried it works well**
 
+![image](https://github.com/user-attachments/assets/9c7a7f9f-0526-48ed-83f6-70ee1b25ec11)
+
+  https://live.sysinternals.com/procexp.exe
+
 Download from Microsoft's website
 Run the executable (no installation required)
 View GPU usage by process

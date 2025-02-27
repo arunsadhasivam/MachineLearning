@@ -60,7 +60,7 @@ Run the application for detailed hardware monitoring including GPU metrics
 
 NOTE:
 ======
-  tried it works well
+  **tried it works well**
 
 Download from Microsoft's website
 Run the executable (no installation required)

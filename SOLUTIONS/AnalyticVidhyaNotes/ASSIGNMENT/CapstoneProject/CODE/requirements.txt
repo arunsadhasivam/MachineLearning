@@ -16,6 +16,5 @@ langchain
 openai
 pathlib
 dotenv
-os
 logging
-
+weaviate-client

@@ -44,6 +44,11 @@ Networking in kubernetes:
 ![image](https://github.com/user-attachments/assets/e8a73e3f-d47f-4217-b5f2-7e86267ba55f)
 
 
+- you can see kubernetes send request to new versions as well
+- red line shows it stop sending request to the old versions.
+- future these will automatically removed, in this way smooth transition form old to new version
+  without actually disturbing the connections done by user.
+
 Service Type:
 ==============
 

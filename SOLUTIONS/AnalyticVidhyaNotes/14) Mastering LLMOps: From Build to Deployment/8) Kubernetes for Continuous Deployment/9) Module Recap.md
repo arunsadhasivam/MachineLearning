@@ -22,4 +22,4 @@ Module Recap:
   -  hands on session on Horizondal POD Autoscaler to create an action, managing the LORAX deployment that we
      created before in kubernetes.
 
-  ![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/5a112daa-4398-4c7c-807e-0b5cb4bc178a)

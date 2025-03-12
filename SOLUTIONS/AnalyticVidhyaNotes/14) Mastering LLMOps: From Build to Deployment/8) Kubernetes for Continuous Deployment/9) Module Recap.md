@@ -21,4 +21,5 @@ Module Recap:
      used to even scale node UP and DOWN different nodes.
   -  hands on session on Horizondal POD Autoscaler to create an action, managing the LORAX deployment that we
      created before in kubernetes.
+
   ![Uploading image.png…]()

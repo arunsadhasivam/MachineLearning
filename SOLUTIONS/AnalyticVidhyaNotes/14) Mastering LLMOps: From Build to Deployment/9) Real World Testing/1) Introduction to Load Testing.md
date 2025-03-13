@@ -11,25 +11,25 @@ Real World Testing:
 LLM Inference looks like:
 ===========================
 
-    - in this diagram, we have g5.xlarge.instance , it has certain amount of CPU , RAM , GPU.
-    - which enables to deploy these LLM containers and do LLM Inference.
-    - This machine is  then connected to a network bandwidth with a maximum of 10GBPS available bandwidth
-      and then is also connected to a storage.
-    - lets say we connected to EBS Volume, but the maximum amount of transfer that can happen is 3.5GBPS.
-    - this is all about the hardware that we are on.
-    - in terms of request that would be made , we can see multiple users are trying to access the server
-      and request takes certain amount of lag in milliseconds.
-    - so that is the latency that the user faces in getting the response back.
-    - multiple users are using this particular docker container , we can see that there is something called
-      as throughput , which is token per second, which is at the given instance of time, how many tokens
-      are getting generated through this LLM.
+  - in this diagram, we have g5.xlarge.instance , it has certain amount of CPU , RAM , GPU.
+  - which enables to deploy these LLM containers and do LLM Inference.
+  - This machine is  then connected to a network bandwidth with a maximum of 10GBPS available bandwidth
+    and then is also connected to a storage.
+  - lets say we connected to EBS Volume, but the maximum amount of transfer that can happen is 3.5GBPS.
+  - this is all about the hardware that we are on.
+  - in terms of request that would be made , we can see multiple users are trying to access the server
+    and request takes certain amount of lag in milliseconds.
+  - so that is the latency that the user faces in getting the response back.
+  - multiple users are using this particular docker container , we can see that there is something called
+    as throughput , which is token per second, which is at the given instance of time, how many tokens
+    are getting generated through this LLM.
 
-    - so, if we would have lot of concurrent users , then the latency would also increase
-    - so , the game is between latency and the throughput , if we would have higher throughput , which
-      means more tokens per second, which means more no. of users , we would see that it takes more time
-      to process these requests so that these latency would also increases with time.
-    - the throughput depends on the no of concurrent users and it is measured in tokens per second.
-    - if we have higher concurrent users, we will have higher latency.
+  - so, if we would have lot of concurrent users , then the latency would also increase
+  - so , the game is between latency and the throughput , if we would have higher throughput , which
+    means more tokens per second, which means more no. of users , we would see that it takes more time
+    to process these requests so that these latency would also increases with time.
+  - the throughput depends on the no of concurrent users and it is measured in tokens per second.
+  - if we have higher concurrent users, we will have higher latency.
 
 ![image](https://github.com/user-attachments/assets/7cc51e3c-737d-4209-b3cb-266574a061af)
 
@@ -123,5 +123,6 @@ Performance testing:
   - so we can create these virtual users in code once and then we can simply spin up 100 to 200 or 1000 thousands
     of users would bombard the application at the same time.
 
-  - these requests are then bombarded to the application and critical metrics are measured.
+  - now, these request are then bombared to the application and measure the critical metrics are measured.
+  - this is all about load testing.
            

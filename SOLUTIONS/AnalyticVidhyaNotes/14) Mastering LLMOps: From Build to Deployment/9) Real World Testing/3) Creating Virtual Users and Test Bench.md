@@ -48,7 +48,57 @@ code generator
 
 
 
-  
+  sagemaker studio image build:
+  ================================
+![image](https://github.com/user-attachments/assets/b41529e7-b4b6-429b-bddf-2346f03d4b52)
+
+    - now we would be creating docker container for which install sagemaker studio build
+    - by using this already creating a docker container, we
+    - then using it again to create this new docker container
+![image](https://github.com/user-attachments/assets/ae74de35-9745-43cc-8988-e4d584b1cc99)
+
+    - now , we could calling sagemaker docker build with docker file  and create repository called locus
 
 
- 
+Docker:
+=======
+![image](https://github.com/user-attachments/assets/cc88e256-63af-4782-94a8-e91e33ed4075)
+
+  - lets have look at what docker file looks like
+  - copy the locus.py file that we created
+  - simply run on port 8080
+  - simply run the cell
+![image](https://github.com/user-attachments/assets/cba2e217-a418-450a-8f82-9971b5f2af2e)
+  - above cell will do
+      1) code build project ,
+      2) code build will create a docker container
+      3) Also create the repository for us
+      4) will upload the container to that particular repository.
+
+   - we can see repository named locus is created, we can go to aws > top search > container registry
+   - we can see locus repository created.
+   - still build , if we want to look what is the status, you can go to codebuild > you can see 
+
+![image](https://github.com/user-attachments/assets/a105a42d-3ae6-44cb-9004-66562c393b3b)
+    - you can tail the log , in logs we can see 
+![image](https://github.com/user-attachments/assets/0947633d-406b-4c5f-8d37-57ff81889836)
+
+          1)docker file being pulled
+          2)created
+          3) finally pushed to given ECR image.
+
+     - Also check in ECR 
+![image](https://github.com/user-attachments/assets/0c152d0d-5b8b-4ed4-911d-27631b6d4cdc)
+![image](https://github.com/user-attachments/assets/045be7a1-3c49-488f-acb3-b17402cc6d26)
+
+      - above is the container image url that we want
+      - once that is done, we have go to deployment locus and specify the image name over here
+
+![image](https://github.com/user-attachments/assets/95d9adca-4d6e-4db9-8191-68d1ff453602)
+       - save this file deployment-locus.yaml
+       - using the terminal and this make sure we are in the right folder 
+       - run kuectl 
+       - it finally creates a deployment
+       - kubectl get pod , creates a deployment and this server is running
+![image](https://github.com/user-attachments/assets/366f02f4-7cac-4723-9478-f89417f8ff5f)
+        - this server is running , next chapter we use it for load_testing.

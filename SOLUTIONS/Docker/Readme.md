@@ -66,3 +66,19 @@ docker logs -f my-python-app
 ```
 
 Would you like me to modify this example or create something more specific?
+
+
+# to avoid cache
+
+    ![image](https://github.com/user-attachments/assets/338b92ab-42dd-4a20-b7a3-abd1b6a466eb)
+
+   (PYTHON_CUDA_GPU_HOME) C:\WorkSpace\original-rag-master>docker builder prune
+    WARNING! This will remove all dangling build cache. Are you sure you want to continue? [y/N] y
+    ID                                              RECLAIMABLE     SIZE            LAST ACCESSED
+    ks5mk9nsk3nnuivfwe4m3ewk3                       true            6.33GB          3 days ago
+    nm16grfbplqnv9p2zizu8rnmo                       true    3.566MB         2 days ago
+    e2nymkp2uzitt4xozryj6aam0                       true    3.869MB         8 minutes ago
+    rt8monn6v2iji05d7qys83jo4                       true    3.864MB         2 days ago
+    :                                               :       :               :
+    5sakmfve4p9nzfqo969xb7djz                       true    0B              Less than a second ago
+    Total:  19.01GB

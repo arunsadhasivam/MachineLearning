@@ -19,19 +19,19 @@ CMD ["python", "app.py"]
 
 import time
 
-def main():
-    print("Hello from Docker container!")
-    print("This is a simple Python application running in a container")
+    def main():
+        print("Hello from Docker container!")
+        print("This is a simple Python application running in a container")
+        
+        # Counter to show the app is running
+        counter = 1
+        while True:
+            print(f"Container has been running for {counter} seconds")
+            time.sleep(1)
+            counter += 1
     
-    # Counter to show the app is running
-    counter = 1
-    while True:
-        print(f"Container has been running for {counter} seconds")
-        time.sleep(1)
-        counter += 1
-
-if __name__ == "__main__":
-    main()
+    if __name__ == "__main__":
+        main()
 </antArtifact>
 
 To build and run this Docker container:

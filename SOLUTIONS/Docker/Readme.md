@@ -5,10 +5,10 @@ I'll help you create a simple program to run from Docker. Let's build a basic ex
 FROM python:3.9-slim
 
 # Set working directory
-WORKDIR /app
+    WORKDIR /app
 
 # Copy the Python script
-COPY app.py .
+    COPY app.py .
 
 # Run the script when container launches
     CMD ["python", "app.py"]

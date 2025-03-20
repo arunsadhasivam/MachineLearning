@@ -2,7 +2,8 @@ I'll help you create a simple program to run from Docker. Let's build a basic ex
 
 <antArtifact identifier="docker-hello-world" type="application/vnd.ant.code" language="dockerfile" title="Basic Docker Hello World">
 # Dockerfile
-FROM python:3.9-slim
+
+    FROM python:3.9-slim
 
 # Set working directory
     WORKDIR /app

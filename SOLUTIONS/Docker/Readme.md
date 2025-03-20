@@ -11,7 +11,8 @@ WORKDIR /app
 COPY app.py .
 
 # Run the script when container launches
-CMD ["python", "app.py"]
+    CMD ["python", "app.py"]
+    
 </antArtifact>
 
 <antArtifact identifier="python-app" type="application/vnd.ant.code" language="python" title="Simple Python App">

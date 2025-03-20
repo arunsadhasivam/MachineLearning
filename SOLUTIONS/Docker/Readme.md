@@ -16,6 +16,7 @@ CMD ["python", "app.py"]
 
 <antArtifact identifier="python-app" type="application/vnd.ant.code" language="python" title="Simple Python App">
 # app.py
+
 import time
 
 def main():

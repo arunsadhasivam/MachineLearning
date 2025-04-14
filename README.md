@@ -15,6 +15,11 @@ Geometry visualization
 
 https://www.geogebra.org/calculator
 
+
+Agentic AI:
+===========
+https://blogs.nvidia.com/blog/what-is-agentic-ai/
+
 martix:
 ========
 

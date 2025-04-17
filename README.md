@@ -15,6 +15,7 @@ Geometry visualization
 
 https://www.geogebra.org/calculator
 
+https://github.com/PacktPublishing/Unlocking-Data-with-Generative-AI-and-RAG
 
 Agentic AI:
 ===========

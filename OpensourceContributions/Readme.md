@@ -17,7 +17,7 @@ https://lnkd.in/gSGVvmBB
 ## 3: Machine Learning interviews from FAANG (10.6k stars)
 https://lnkd.in/gBhPEN6f
 
-## 4:// Machine Learning cheat sheet (7.6k stars)
+## 4: Machine Learning cheat sheet (7.6k stars)
 https://lnkd.in/gHtehPv7
 
 ## 5: Guide for ML / AI technical interviews (6k stars)

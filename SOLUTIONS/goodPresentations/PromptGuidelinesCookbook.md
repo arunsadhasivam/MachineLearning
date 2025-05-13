@@ -1,6 +1,10 @@
 9 FREE AI Sources (with links):
+===============================
+
 
 Prompt Engineering for LLMs
+============================
+
 → Prompt structures
 → Real-world use cases
 → LLM integration
@@ -8,6 +12,8 @@ Prompt Engineering for LLMs
 🔗 https://lnkd.in/eS9JpeSn
 
 Google’s Prompting Guide
+=========================
+
 → Gemini-specific tips
 → Role-based prompts
 → Workspace strategies
@@ -15,6 +21,8 @@ Google’s Prompting Guide
 🔗 https://lnkd.in/e9PYwsVD
 
 OpenAI Guide to Agents
+=======================
+
 → Agent architecture
 → Deployment tactics
 → Best practices
@@ -22,6 +30,8 @@ OpenAI Guide to Agents
 🔗 https://lnkd.in/eursDMnh
 
 OpenAI: AI in the Enterprise
+============================
+
 → Strategic adoption
 → Roadmap creation
 → Use case design
@@ -29,6 +39,8 @@ OpenAI: AI in the Enterprise
 🔗 https://lnkd.in/eQE7iS-Y
 
 Google Agent Companion Whitepaper
+===================================
+
 → How agents actually work
 → Evaluation frameworks
 → Enterprise-grade examples
@@ -36,6 +48,8 @@ Google Agent Companion Whitepaper
 🔗 https://lnkd.in/ehkvSwjK
 
 Anthropic’s Agent Framework
+============================
+
 → Claude-specific flows
 → Iteration logic
 → Prompt flow models
@@ -43,6 +57,8 @@ Anthropic’s Agent Framework
 🔗 https://lnkd.in/eNucaVN3
 
 Anthropic’s Coding Best Practices
+===================================
+
 → Secure architecture
 → Prompt injection safety
 → Output consistency
@@ -50,6 +66,8 @@ Anthropic’s Coding Best Practices
 🔗 https://lnkd.in/eN7fDM-7
 
 200+ Page AI & LLM Research Book
+=================================
+
 → LLM mechanics
 → Model design
 → Deep architecture breakdown
@@ -57,6 +75,8 @@ Anthropic’s Coding Best Practices
 🔗 https://lnkd.in/eknj7JMb
 
 Scaling AI Use Cases
+======================
+
 → Use case filters
 → Risk & feasibility mapping
 → Readiness checklist

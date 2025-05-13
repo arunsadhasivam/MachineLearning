@@ -18,6 +18,8 @@ Here's a breakdown of 7 key RAG architectures every AI engineer should understan
 → 𝗔𝗴𝗲𝗻𝘁𝗶𝗰 𝗥𝗔𝗚 (𝗠𝘂𝗹𝘁𝗶-𝗔𝗴𝗲𝗻𝘁) Multiple specialized agents operate in parallel—each querying different tools (search engines, Gmail, Slack, etc.). Final response is synthesized from their outputs. Think of this as the “AI operating system” model.
 
 
-![Uploading 1747071338265.jpg…]()
 
 ![1746587325479](https://github.com/user-attachments/assets/a8a0041d-1541-434a-ab79-bb8d77aa0b39)
+
+![1747071338265](https://github.com/user-attachments/assets/c8fc8fc3-92f9-411f-ae20-a855c11f7224)
+

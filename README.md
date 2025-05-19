@@ -50,7 +50,7 @@ Machine Learning Engineer Certification:
 https://www.cloudskillsboost.google/journeys/17
 https://cloud.google.com/learn/training/machinelearning-ai#data-scientist-learning-path
 
-
+https://github.com/vatsprat/AI-102-AI-Engineer-Associate-Certification-Exam-
 
 Full certificate provider List:
 ===============================

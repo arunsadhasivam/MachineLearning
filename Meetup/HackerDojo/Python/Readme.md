@@ -8,3 +8,10 @@ jujutsu(github)
 
 
 https://www.sammirazi.com/
+
+
+multiplexing commands
+======================
+
+tmux 
+screen

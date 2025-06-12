@@ -6,6 +6,9 @@ https://github.com/analyticalrohit/pytorch_fundamentals
 https://awesomeneuron.substack.com/p/pytorch-fundamentals-your-first-steps
 
 
+
+https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main
+
 voxel:
 =======
 

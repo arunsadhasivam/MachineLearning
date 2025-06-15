@@ -19,3 +19,59 @@ Now inside virtual env , you can now install all needed packages for deeplearnin
 separate folder without disturbing all  other environment.
 (DEEP_LEARNING) C:\Arun\PythonEnv\DEEP_LEARNING\Scripts>
  
+
+install ipkernel & jupyter to list in vscode:
+==============================================
+
+(DEEP_LEARNING) C:\Arun\PythonEnv\DEEP_LEARNING\Scripts>pip install ipykernel jupyter
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Collecting ipykernel
+  Downloading ipykernel-6.29.5-py3-none-any.whl (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.2/117.2 kB 1.7 MB/s eta 0:00:00
+Collecting jupyter
+  Downloading jupyter-1.1.1-py2.py3-none-any.whl (2.7 kB)
+Collecting comm>=0.1.1
+  Downloading comm-0.2.2-py3-none-any.whl (7.2 kB)
+Collecting debugpy>=1.6.5
+  Downloading debugpy-1.8.14-cp311-cp311-win_amd64.whl (5.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 5.1 MB/s eta 0:00:00
+Collecting ipython>=7.23.1
+  Downloading ipython-9.3.0-py3-none-any.whl (605 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 605.3/605.3 kB 9.6 MB/s eta 0:00:00
+Collecting jupyter-client>=6.1.12
+  Downloading jupyter_client-8.6.3-py3-none-any.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.1/106.1 kB ? eta 0:00:00
+Collecting jupyter-core!=5.0.*,>=4.12
+  Downloading jupyter_core-5.8.1-py3-none-any.whl (28 kB)
+Collecting matplotlib-inline>=0.1
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl (9.9 kB)
+Collecting nest-asyncio
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Collecting packaging
+  Downloading packaging-25.0-py3-none-any.whl (66 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 66.5/66.5 kB ? eta 0:00:00
+Collecting psutil
+  Downloading psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 244.9/244.9 kB 14.7 MB/s eta 0:00:00
+Collecting pyzmq>=24
+  Downloading pyzmq-27.0.0-cp311-cp311-win_amd64.whl (630 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 630.3/630.3 kB 13.5 MB/s eta 0:00:00
+Collecting tornado>=6.1
+  Downloading tornado-6.5.1-cp39-abi3-win_amd64.whl (444 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 444.8/444.8 kB 27.2 MB/s eta 0:00:00
+Collecting traitlets>=5.4.0
+  Downloading traitlets-5.14.3-py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.4/85.4 kB ? eta 0:00:00
+Collecting notebook
+  Downloading notebook-7.4.3-py3-none-any.whl (14.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.3/14.3 MB 12.6 MB/s eta 0:00:00
+Collecting jupyter-console
+  Downloading jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+
+[notice] A new release of pip available: 22.3 -> 25.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+
+
+

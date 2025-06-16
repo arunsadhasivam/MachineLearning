@@ -12,3 +12,4 @@ change cpu to ada gpu
 ![image](https://github.com/user-attachments/assets/2a1b5f1d-6096-44af-ae24-0165afd5749a)
 
  ![image](https://github.com/user-attachments/assets/278d5c11-ba73-4094-8a5f-c08f9cf2b249)
+![image](https://github.com/user-attachments/assets/f5d45f34-782b-4e35-b120-ef70608ba1ea)

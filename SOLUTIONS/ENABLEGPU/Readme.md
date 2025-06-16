@@ -3,27 +3,8 @@ Step 1:
 
 check nvidia smi
 
-C:\Users\aruns>nvidia-smi
-Sun Jun 15 22:45:52 2025
-+-----------------------------------------------------------------------------------------+
-| NVIDIA-SMI 572.40                 Driver Version: 572.40         CUDA Version: 12.8     |
-|-----------------------------------------+------------------------+----------------------+
-| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
-| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
-|                                         |                        |               MIG M. |
-|=========================================+========================+======================|
-|   0  NVIDIA RTX 2000 Ada Gene...  WDDM  |   00000000:01:00.0 Off |                  N/A |
-| N/A   42C    P3              8W /   41W |       0MiB /   8188MiB |      0%      Default |
-|                                         |                        |                  N/A |
-+-----------------------------------------+------------------------+----------------------+
+       ![image](https://github.com/user-attachments/assets/9f9bae0f-9193-44a1-b1ac-33a4de416c85)
 
-+-----------------------------------------------------------------------------------------+
-| Processes:                                                                              |
-|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
-|        ID   ID                                                               Usage      |
-|=========================================================================================|
-|  No running processes found                                                             |
-+-----------------------------------------------------------------------------------------+
 
   go to NVIDIA Control Panel > 
 ![image](https://github.com/user-attachments/assets/f41d0a78-2fe5-4834-aa58-2216042c4517)

@@ -3,7 +3,7 @@ Step 1:
 
 check nvidia smi
 
-![image](https://github.com/user-attachments/assets/9f9bae0f-9193-44a1-b1ac-33a4de416c85)
+![image](https://github.com/user-attachments/assets/20d37e4e-c9bb-486f-a587-46f1a52d33d0)
 
 
   go to NVIDIA Control Panel > 

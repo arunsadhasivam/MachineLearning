@@ -1,0 +1,1 @@
+https://www.linkedin.com/posts/shantanuladhwe_7-years-ago-i-had-no-idea-what-mlops-meant-activity-7343948684021116928-Wnqq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAOMcsQB_Ttzbh0aE26h0njA4lWbd86vJz0

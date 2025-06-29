@@ -22,6 +22,8 @@ https://www.aitoolhouse.com/ai-agents/category/healthcare
 
 https://www.oreilly.com/live-events/building-ai-agents-with-model-context-protocol-mcp/0642572182441/
 
+https://github.com/davidADSP/Generative_Deep_Learning_2nd_Edition/tree/main
+
 Geometry visualization
 ======================
 

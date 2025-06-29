@@ -24,4 +24,7 @@ Neuron Know-How
 
 ![image](https://github.com/user-attachments/assets/4efb5f24-e980-4d9a-a10c-b696456f5ac2)
 
+- submission : multiply the each feature * weights and add all together with basic (dot product )
+  ![image](https://github.com/user-attachments/assets/0689bc45-141d-4d75-95d2-82e555f537b5)
 
+- it is the dot product of features & weights and bias term added.

@@ -10,6 +10,11 @@ kaggle -https://www.kaggle.com/
 
 runpod.io - https://www.runpod.io/
 
+
+Books
+=======
+https://libgen.is/
+
 Best Site to Learn:
 ======================
 

@@ -5,6 +5,11 @@ https://github.com/analyticalrohit/pytorch_fundamentals
 
 https://awesomeneuron.substack.com/p/pytorch-fundamentals-your-first-steps
 
+karpathy 
+========
+
+https://github.com/karpathy/nn-zero-to-hero
+
 
 Awesome LLM APPS(Top Ranked Repository):
 =========================================

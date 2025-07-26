@@ -34,7 +34,10 @@ https://awesomeneuron.substack.com/p/pytorch-fundamentals-your-first-steps
 karpathy
 
 https://github.com/karpathy/nn-zero-to-hero
+
+
 Awesome LLM APPS(Top Ranked Repository):
+=========================================
 
 https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main
 

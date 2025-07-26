@@ -22,6 +22,8 @@ https://lnkd.in/ggkqm9US
 https://lnkd.in/g4b3T6xx
 
 
+
+
 https://github.com/sathishvj/awesome-gcp-certifications/blob/master/professional-machine-learning-engineer.md
 
 https://github.com/analyticalrohit/pytorch_fundamentals

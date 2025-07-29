@@ -12,7 +12,7 @@ https://github.com/andrewekhalel/MLQuestions
 
 
 ## Good Links to transition:
-============================
+ 
 
 https://medium.datadriveninvestor.com/50-handpicked-github-repositories-to-master-data-science-skills-pro-recommended-8231c661e731
 

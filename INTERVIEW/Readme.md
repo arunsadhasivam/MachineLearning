@@ -1,5 +1,10 @@
 These 7 GitHub repos are the ones I always recommend:
 
+## Interview Questions:
+
+https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers
+
+
 ## 1:All algorithms implemented in Python (199k stars)
 https://lnkd.in/gdeUgjsi
 

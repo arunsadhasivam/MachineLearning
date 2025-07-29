@@ -4,6 +4,9 @@ These 7 GitHub repos are the ones I always recommend:
 
 https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers
 
+https://github.com/andrewekhalel/MLQuestions
+
+https://github.com/soulmachine/machine-learning-cheat-sheet
 
 ## 1:All algorithms implemented in Python (199k stars)
 https://lnkd.in/gdeUgjsi

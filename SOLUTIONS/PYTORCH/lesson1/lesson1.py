@@ -21,9 +21,6 @@ a= torch.tensor([[1,2],[3,4]])
 b = torch.tensor([[1,2],[3,4]])
 #print(a.add_(b))
 print(b.view(-1))
- 
-
-
 
 def  tensor_multiple(cuda_enabled):
     start = 0
@@ -38,7 +35,7 @@ def  tensor_multiple(cuda_enabled):
         #Torch not compiled with CUDA enabled error throw
         a = a.to("cuda")
         b = b.to("cuda")
-        print('gpu activated...')
+        #print('gpu activated...')
 
     if torch.cuda.is_available():
         end= torch.cuda.Event(enable_timing=True)
@@ -57,19 +54,48 @@ isCudaAvail = False
 if torch.cuda.is_available():
     isCudaAvail = True
 cpu =tensor_multiple(isCudaAvail)
-print('cpu=',cpu)#0.3
+#print('cpu=',cpu)#0.3
 gpu = tensor_multiple(False)
 
-print("gpu=",gpu)#0.055
-
-
+#print("gpu=",gpu)#0.055
 # assign values from numpy
-a = np.ones(3)
-b = torch.from_numpy(a)
-#b = b.to("cuda")
 
-a=a+1
 
-print("a=",a)
-print("b=", b)
+#since call by reference both value changed
+
+
+
+
+def  reference_check() -> None:
+    print('-----both in cpu since numpy only run in cpu ---')
+    a = np.ones(3)
+    b =  a
+    #b = b.to("cuda")
+    a+=1
+    print("a=",a) #[2,2,2]
+    print("b=", b)#[2,2,2]
+
+
+
  
+def  reference_check_torch() -> None:
+    print('-----one variable in cpu and another in torch no CUDA----')
+    a = np.ones(3)
+    b = torch.from_numpy(a)
+    #b = b.to("cuda")
+    a+=1
+    print("torch a=",a) #[2,2,2]
+    print("b=", b)#[2,2,2]
+
+# one in cuda and another in cpu
+def  reference_check_difference_device() -> None:
+    print('-----one variable in cpu and another in GPU----')
+    a = np.ones(3)
+    b = torch.from_numpy(a)
+    b = b.to("cuda")
+    a+=1
+    print("cpu a=",a) #[2,2,2]
+    print("cuda b=", b)#[1,1,1] see reference not copying if one in gpu another in cpu    
+reference_check_torch()
+reference_check()
+reference_check_difference_device()

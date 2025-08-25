@@ -10,7 +10,7 @@ model.forward() or model()
 
 - as you can see model.forward or inside model you have __call__ method which internally call this.forward()
 
-    def __call__(self):  # Makes object callable like a function
+      def __call__(self):  # Makes object callable like a function
         return f"Hello, I'm {self.name}!"
 
 

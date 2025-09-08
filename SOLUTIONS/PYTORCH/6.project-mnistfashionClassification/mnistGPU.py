@@ -81,6 +81,7 @@ torch.manual_seed(42)
 
 
 # Check for GPU
+#STEP 1 convert to GPU - check GPU  available
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Using device: {device}")
 
@@ -166,8 +167,17 @@ class MyNeuralArch(nn.Module):
 #set learning rate and epoch
 epochs = 100
 learning_rate = 0.1
+
+
+ ##RuntimeError: Expected all tensors to be on the same device, but found at least two devices,
+ # cpu and cuda:0! (when checking argument for argument mat1 in method wrapper_CUDA_addmm)
+ 
+ #important both data and model to be in gpu
 #instantiate model
 model = MyNeuralArch(X_train.shape[1])
+#STEP 2 convert to GPU - add model to GPU
+model = model.to(device)
+
 
 #loss function
 loss_fn = nn.CrossEntropyLoss()
@@ -183,9 +193,13 @@ for epoch in range(epochs):
 
   for batch_features, batch_labels in train_loader:
 
+
+    #STEP 3 convert to GPU - add data to GPU
     # move data to gpu
     batch_features, batch_labels = batch_features.to(device), batch_labels.to(device)
 
+
+   
     # forward pass
     outputs = model(batch_features)
 

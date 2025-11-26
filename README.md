@@ -10,6 +10,10 @@ kaggle -https://www.kaggle.com/
 
 runpod.io - https://www.runpod.io/
 
+Github:
+=======
+
+https://microsoftlearning.github.io/mslearn-ai-language/
 
 Books
 =======

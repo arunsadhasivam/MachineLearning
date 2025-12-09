@@ -10,6 +10,11 @@ kaggle -https://www.kaggle.com/
 
 runpod.io - https://www.runpod.io/
 
+Pytorch:
+==========
+
+https://docs.pytorch.org/tutorials/beginner/basics/intro.html
+
 Github:
 =======
 

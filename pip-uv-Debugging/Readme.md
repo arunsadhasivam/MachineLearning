@@ -30,6 +30,6 @@ comment:
 
 in requirement.txt comment like this
 
-    urllib3 # ==1.26.5 correct
-    urllib3# ==1.26.5 not correct 
-    urllib3 #==1.26.5 correct
+    urllib3 # ==1.26.5  correct
+    urllib3# ==1.26.5   not correct 
+    urllib3 #==1.26.5   not correct

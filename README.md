@@ -33,16 +33,27 @@ pytorch projects:
 ==================
 
 https://www.guvi.in/blog/pytorch-project-ideas/
+
 https://github.com/sumitjhaleriya/Startup-Success-Prediction-using-Machine-Learning
+
 https://github.com/prajwalcr/AutoCompose
+
 https://github.com/Dhruba59/Music-recommendation-based-on-facial-emotion-recognition
+
 https://github.com/mehra-deepak/Plant-Disease-Detection
+
 https://github.com/jaketae/storyteller
+
 https://github.com/priyanshpsalian/AI-PERSONAL-TRAINER/
+
 https://github.com/sumitjhaleriya/Startup-Success-Prediction-using-Machine-Learning
+
 https://github.com/openmedlab/MedLSAM
+
 https://github.com/danagh1/Real-Time-Facial-Emotion-Recognition-Using-AI
+
 https://github.com/zakaria-narjis/Diet-Recommendation-System
+
 https://github.com/nikulram/Advanced-Autonomous-Drone-Navigation-System
 
 AI Agents Repository:

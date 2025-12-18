@@ -36,25 +36,19 @@ https://www.guvi.in/blog/pytorch-project-ideas/
 
 https://github.com/sumitjhaleriya/Startup-Success-Prediction-using-Machine-Learning
 
-https://github.com/prajwalcr/AutoCompose
-
-https://github.com/Dhruba59/Music-recommendation-based-on-facial-emotion-recognition
-
-https://github.com/mehra-deepak/Plant-Disease-Detection
-
-https://github.com/jaketae/storyteller
-
-https://github.com/priyanshpsalian/AI-PERSONAL-TRAINER/
-
-https://github.com/sumitjhaleriya/Startup-Success-Prediction-using-Machine-Learning
-
-https://github.com/openmedlab/MedLSAM
-
-https://github.com/danagh1/Real-Time-Facial-Emotion-Recognition-Using-AI
-
-https://github.com/zakaria-narjis/Diet-Recommendation-System
-
-https://github.com/nikulram/Advanced-Autonomous-Drone-Navigation-System
+----|----------------------------------------------------------
+SNO |Projects 
+----|--------------------------------------------------------------
+1   | https://github.com/prajwalcr/AutoCompose
+2   | https://github.com/Dhruba59/Music-recommendation-based-on-facial-emotion-recognition
+3   | https://github.com/mehra-deepak/Plant-Disease-Detection
+4   | https://github.com/jaketae/storyteller
+5   | https://github.com/priyanshpsalian/AI-PERSONAL-TRAINER/
+6   | https://github.com/sumitjhaleriya/Startup-Success-Prediction-using-Machine-Learning
+7   | https://github.com/openmedlab/MedLSAM
+8   | https://github.com/danagh1/Real-Time-Facial-Emotion-Recognition-Using-AI
+9   | https://github.com/zakaria-narjis/Diet-Recommendation-System
+10  | https://github.com/nikulram/Advanced-Autonomous-Drone-Navigation-System
 
 AI Agents Repository:
 =====================

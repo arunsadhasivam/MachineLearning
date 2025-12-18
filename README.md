@@ -36,8 +36,8 @@ https://www.guvi.in/blog/pytorch-project-ideas/
 
 https://github.com/sumitjhaleriya/Startup-Success-Prediction-using-Machine-Learning
 
-----|----------------------------------------------------------
-SNO |Projects 
+--------------------------------------------------------------
+SNO | Projects 
 ----|--------------------------------------------------------------
 1   | https://github.com/prajwalcr/AutoCompose
 2   | https://github.com/Dhruba59/Music-recommendation-based-on-facial-emotion-recognition

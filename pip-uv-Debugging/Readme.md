@@ -28,7 +28,7 @@ print architecture:
 comment:
 =========
 
-in requirement.txt comment like this a space **before** and **after** the comment is required
+in requirement.txt comment like this a space **before** and **after** the comment is required to work properly
 
     urllib3 # ==1.26.5  correct
     urllib3# ==1.26.5   not correct 

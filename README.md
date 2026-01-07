@@ -17,6 +17,11 @@ good book
 https://deeplearningwithpython.io
 
 
+open source contribution
+=========================
+
+
+https://www.dataschool.io/how-to-contribute-on-github/
 
 Pytorch:
 ==========

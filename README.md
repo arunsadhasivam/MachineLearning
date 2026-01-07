@@ -10,6 +10,14 @@ kaggle -https://www.kaggle.com/
 
 runpod.io - https://www.runpod.io/
 
+
+good book
+===========
+
+https://deeplearningwithpython.io
+
+
+
 Pytorch:
 ==========
 
